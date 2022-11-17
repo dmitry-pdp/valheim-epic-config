@@ -15,6 +15,6 @@
     "reqs": [
         "SurtlingCore:2:0:True",
 		"Iron:4:0:True",
-		"RunestoneEpic:1:0:True"
+		"RunestoneLegendary:1:0:True"
     ]
 }

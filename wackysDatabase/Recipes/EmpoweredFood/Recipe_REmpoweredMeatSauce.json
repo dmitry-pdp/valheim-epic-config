@@ -4,12 +4,12 @@
     "clonePrefabName": "EmpoweredMeatSauce",
     "craftingStation": "$piece_cauldron",
     "minStationLevel": 1,
-    "amount": 2,
+    "amount": 1,
     "disabled": false,
     "reqs": [
-        "RunestoneMagic:1:0:True",
-	"ReagentEpic:4:0:True",
-        "MushroomSauce:1:1:True",
-	"MeatSauce:1:1:True"
+        "RunestoneRare:1:0:True",
+		"ReagentEpic:3:0:True",
+        "RawMeat:1:1:True",
+        "Carrot:1:1:True"
     ]
 }

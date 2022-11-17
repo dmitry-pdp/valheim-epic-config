@@ -7,8 +7,8 @@
     "amount": 1,
     "disabled": false,
     "reqs": [
-        "RunestoneMagic:1:0:True",
-	"ReagentEpic:3:0:True",
+        "RunestoneRare:1:0:True",
+		"ReagentEpic:3:0:True",
         "CookedDeerMeat:1:0:True"
     ]
 }

@@ -7,9 +7,9 @@
     "amount": 1,
     "disabled": false,
     "reqs": [
-        "CookedMeat:2:0:True",
-        "NeckTailGrilled:2:0:True",
-	"Carrot:5:0:True",
-	"MushroomBlue:10:0:True"
+        "CookedMeat:1:0:True",
+        "NeckTailGrilled:1:0:True",
+		"Carrot:5:0:True",
+		"MushroomBlue:10:0:True"
     ]
 }

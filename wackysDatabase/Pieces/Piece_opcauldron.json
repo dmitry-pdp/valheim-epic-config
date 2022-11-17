@@ -15,6 +15,6 @@
     "reqs": [
         "Iron:10:0:True",
 		"DustRare:20:0:True",
-		"RunestoneRare:1:0:True"
+		"RunestoneLegendary:1:0:True"
     ]
 }
