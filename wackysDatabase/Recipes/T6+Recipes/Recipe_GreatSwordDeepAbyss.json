@@ -1,0 +1,14 @@
+{
+    "name": "GreatSwordDeepAbyss",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "DeepAbyssEssence:60:40:False",
+        "WorldTreeFragment:40:20:False",
+        "BurningWorldTreeFragment:40:20:False"
+    ]
+}

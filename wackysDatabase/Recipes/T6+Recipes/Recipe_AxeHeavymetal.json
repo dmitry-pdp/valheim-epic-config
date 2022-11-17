@@ -1,0 +1,15 @@
+{
+    "name": "AxeHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "HeavymetalBar:20:8:False",
+        "WorldTreeFragment:20:10:False",
+        "LinenThread:15:8:False",
+        "TrophySvartalfarQueen:1:0:False"
+    ]
+}

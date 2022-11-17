@@ -1,0 +1,15 @@
+{
+    "name": "RCapeTrollHideIV",
+    "clone": true,
+    "clonePrefabName": "CapeTrollHideIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "CapeTrollHideIII:1:0:True",
+		"WolfPelt:6:4:True",
+        "Silver:4:2:True",
+		"TrophyWolf:1:0:True"
+    ]
+}

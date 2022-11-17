@@ -1,0 +1,15 @@
+{
+    "name": "RArmorFenringChestV",
+    "clone": true,
+    "clonePrefabName": "ArmorFenringChestV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorFenringChest:1:0:True",
+		"WolfHairBundle:6:0:True",
+        "LoxPelt:10:5:True",
+		"LinenThread:10:5:True"
+    ]
+}

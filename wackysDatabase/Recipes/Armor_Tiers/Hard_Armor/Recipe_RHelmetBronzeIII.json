@@ -1,0 +1,14 @@
+{
+    "name": "RHelmetBronzeIII",
+    "clone": true,
+    "clonePrefabName": "HelmetBronzeIII",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetBronze:1:0:True",
+		"Iron:20:5:True",
+        "DeerHide:2:0:True"
+    ]
+}

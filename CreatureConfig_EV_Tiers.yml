@@ -1,0 +1,96 @@
+groups:
+  BlackForestReg:
+    - Greydwarf
+    - Greydwarf_Shaman
+  SwampReg:
+    - Blob
+    - Leech
+    - Draugr
+    - Surtling
+  MountainReg:
+    - Wolf
+    - Hatchling
+    - Bat
+    - Ulv
+    - Fenring_Cultist
+    - Serpent
+  PlainsReg:
+    - Goblin
+    - GoblinShaman
+    - Deathsquito
+    - BlobTar
+  BlackForestElite:
+    - Skeleton
+    - Skeleton_Poison
+    - Ghost
+    - Greydwarf_Shaman
+    - Greydwarf_Elite
+  SwampElite:
+    - Draugr_Elite
+    - Abomination
+    - BlobElite
+    - Wraith
+  MountainElite:
+    - Fenring
+    - StoneGolem
+  PlainsElite:
+    - Lox
+    - GoblinBrute
+Eikthyr:
+  Override:
+    damage: 2.3
+gd_king:
+  Override:
+    damage: 1.3
+Bonemass:
+  Override:
+    damage: 1.2
+Moder:
+  damage taken:
+    Bows: 1.5
+  damage:
+     frost: 0.5
+     slash: 0.9
+BlackForestReg:
+    damage: 1.5
+    damage per star: 0.2
+    health: 3
+    health per star: 0.2
+BlackForestElite:
+    damage: 1.6
+    damage per star: 0.3
+    health: 2
+    health per star: 0.3
+# Swamp
+SwampReg:
+    damage: 1.6
+    damage per star: 0.2
+    health: 3
+    health per star: 0.2
+SwampElite:
+    damage: 1.7
+    damage per star: 0.2
+    health: 2
+    health per star: 0.3
+# Mountain
+MountainReg:
+    damage: 1.7
+    damage per star: 0.2
+    health: 3
+    health per star: 0.2
+MountainElite:
+    damage: 1.5
+    damage per star: 0.2
+    health: 2
+    health per star: 0.3
+# Plains
+PlainsReg:
+    damage: 1.7
+    damage per star: 0.2
+    health: 3
+    health per star: 0.2
+PlainsElite:
+    damage: 1.8
+    damage per star: 0.2
+    health: 2
+    health per star: 0.3

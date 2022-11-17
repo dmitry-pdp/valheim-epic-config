@@ -1,0 +1,14 @@
+{
+    "name": "Grand_Healing_Tide_Potion",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneRare:1:0:True",
+        "ReagentEpic:3:0:True",
+		"Needle:15:0:True"
+    ]
+}

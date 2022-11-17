@@ -1,0 +1,15 @@
+{
+    "name": "RCapeDeerHideV",
+    "clone": true,
+    "clonePrefabName": "CapeDeerHideV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "CapeDeerHideIV:1:0:True",
+		"DeerHide:2:2:True",
+		"LoxPelt:6:2:True",
+        "Silver:2:0:True"
+    ]
+}

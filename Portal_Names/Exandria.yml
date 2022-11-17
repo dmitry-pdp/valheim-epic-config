@@ -1,0 +1,23 @@
+#Hello, this is the Portal yml file. It keeps track of all portals you enter
+Portals:
+  Demo_Portal_Name:
+    Portal_Crystal_Cost:
+      Red: 1
+      Green: 0
+      Blue: 0
+      Purple: 0
+      Tan: 0
+      Gold: 1
+    Portal_Key:
+      Red: true
+      Green: false
+      Blue: false
+      Purple: false
+      Tan: false
+      Gold: true
+    Free_Passage: false
+    TeleportAnything: false
+    AdditionalProhibitItems:
+    - Stone
+    - Wood
+    Admin_only_Access: false

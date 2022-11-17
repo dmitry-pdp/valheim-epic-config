@@ -1,0 +1,14 @@
+{
+    "name": "TridentDeepAbyss",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "DeepAbyssEssence:20:10:False",
+        "WorldTreeFragment:8:4:False",
+        "BurningWorldTreeFragment:8:4:False"
+    ]
+}

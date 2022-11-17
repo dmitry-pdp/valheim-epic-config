@@ -1,0 +1,15 @@
+{
+    "name": "RPortalDrink",
+    "clone": true,
+    "clonePrefabName": "PortalDrink",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "DustRare:10:0:False",
+		"RunestoneLegendary:1:0:False",
+		"ReagentEpic:10:0:False",
+		"SurtlingCore:1:0:False"
+    ]
+}

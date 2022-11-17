@@ -1,0 +1,14 @@
+{
+    "name": "rune_glacial_spike",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "goblin_drop:1:1:False",
+        "FreezeGland:10:2:False",
+        "Coins:100:100:False"
+    ]
+}

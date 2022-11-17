@@ -1,0 +1,15 @@
+{
+    "name": "AxeFrometal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FrometalBar:20:10:False",
+        "PrimordialIce:3:2:False",
+        "WorldTreeFragment:2:1:False",
+        "TrophyJotunn:1:0:False"
+    ]
+}

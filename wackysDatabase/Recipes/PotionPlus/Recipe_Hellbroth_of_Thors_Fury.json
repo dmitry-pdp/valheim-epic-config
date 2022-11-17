@@ -1,0 +1,14 @@
+{
+    "name": "Hellbroth_of_Thors_Fury",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"EssenceMagic:3:0:True",
+        "Tar:6:0:True",
+        "Thunderstone:1:0:True"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Odins_Dragon_Staff",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Odins_Alchemy_Wand:1:0:True",
+        "ElderBark:40:0:True",
+        "BlackMetal:40:0:True",
+        "SurtlingCore:1:0:True"
+    ]
+}

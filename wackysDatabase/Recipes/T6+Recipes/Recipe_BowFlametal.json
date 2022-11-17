@@ -1,0 +1,14 @@
+{
+    "name": "BowFlametal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Flametal:20:10:False",
+        "LoxPelt:4:2:False",
+        "BurningWorldTreeFragment:8:4:False"
+    ]
+}

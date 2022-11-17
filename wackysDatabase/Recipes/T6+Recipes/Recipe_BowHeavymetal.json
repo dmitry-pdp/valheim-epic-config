@@ -1,0 +1,14 @@
+{
+    "name": "BowHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "HeavymetalBar:14:5:False",
+        "WorldTreeFragment:25:5:False",
+        "LinenThread:14:4:False"
+    ]
+}

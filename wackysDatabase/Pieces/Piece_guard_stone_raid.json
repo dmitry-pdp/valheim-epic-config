@@ -1,0 +1,20 @@
+{
+    "name": "guard_stone_raid",
+    "m_name": "Creature Ward",
+    "m_description": "Wards off a large radius from hostile creatures, preventing enemy invasions.",
+    "clone": true,
+    "clonePrefabName": "guard_stone",
+    "cloneMaterial": "lighting",
+    "craftingStation": "",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Misc",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "RoundLog:5:1:True",
+        "Amber:5:1:True",
+        "Ruby:1:1:True"
+    ]
+}

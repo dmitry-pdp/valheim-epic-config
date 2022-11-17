@@ -1,0 +1,15 @@
+{
+    "name": "RHelmetRootIV",
+    "clone": true,
+    "clonePrefabName": "HelmetRootIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetRoot:1:0:True",
+		"Root:4:0:True",
+        "WolfHairBundle:20:5:True",
+        "TrophyCultist:1:0:True"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "REliteT4_2",
+    "clone": true,
+    "clonePrefabName": "EliteT4_2",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "EliteT4_1:1:0:True",
+        "EssenceMagic:5:0:True",
+		"ShardLegendary:5:0:True"
+    ]
+}

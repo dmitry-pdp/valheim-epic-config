@@ -1,0 +1,15 @@
+{
+    "name": "RArmorTrollLeatherChestV",
+    "clone": true,
+    "clonePrefabName": "ArmorTrollLeatherChestV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorTrollLeatherChestIV:1:0:True",
+		"TrollHide:6:0:True",
+		"LoxPelt:10:5:True",
+		"LinenThread:10:5:True"
+    ]
+}

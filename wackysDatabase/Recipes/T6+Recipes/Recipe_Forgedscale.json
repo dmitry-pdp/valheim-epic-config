@@ -1,0 +1,13 @@
+{
+    "name": "Forgedscale",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Copper:1:0:False",
+        "Flametal:2:0:False"
+    ]
+}

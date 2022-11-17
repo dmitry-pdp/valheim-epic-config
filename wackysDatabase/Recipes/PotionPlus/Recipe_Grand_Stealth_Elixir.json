@@ -1,0 +1,14 @@
+{
+    "name": "Grand_Stealth_Elixir",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneRare:1:0:True",
+        "ReagentEpic:3:0:True",
+		"Flax:15:0:True"
+    ]
+}

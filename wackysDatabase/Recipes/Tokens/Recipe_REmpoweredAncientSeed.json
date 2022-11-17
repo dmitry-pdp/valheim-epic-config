@@ -1,0 +1,14 @@
+{
+    "name": "REmpoweredAncientSeed",
+    "clone": true,
+    "clonePrefabName": "EmpoweredAncientSeed",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "AncientSeed:3:0:False",
+        "EssenceMagic:30:0:False",
+		"ShardLegendary:10:0:False"
+    ]
+}

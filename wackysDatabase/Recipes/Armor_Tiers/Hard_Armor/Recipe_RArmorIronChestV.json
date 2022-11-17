@@ -1,0 +1,14 @@
+{
+    "name": "RArmorIronChestV",
+    "clone": true,
+    "clonePrefabName": "ArmorIronChestV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorIronChestIV:1:0:True",
+		"Iron:10:3:True",
+        "LinenThread:20:10:True"
+    ]
+}

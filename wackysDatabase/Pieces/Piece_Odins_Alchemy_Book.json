@@ -1,0 +1,20 @@
+{
+    "name": "Odins_Alchemy_Book",
+    "m_name": "Annoyed Alchemy Book",
+    "m_description": "Increases Alchemy crafting knowledge",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "SurtlingCore:2:0:True",
+		"Iron:4:0:True",
+		"RunestoneEpic:1:0:True"
+    ]
+}

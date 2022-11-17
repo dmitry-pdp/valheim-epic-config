@@ -1,0 +1,15 @@
+{
+    "name": "Rrune_frostboltIII",
+    "clone": true,
+    "clonePrefabName": "rune_frostboltIII",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"rune_frostboltII:1:0:False",
+        "DustRare:10:0:False",
+        "RunestoneLegendary:1:0:False",
+		"Iron:5:0:False"
+    ]
+}

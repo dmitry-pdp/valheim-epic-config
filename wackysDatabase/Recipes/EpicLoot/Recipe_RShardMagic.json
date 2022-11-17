@@ -1,0 +1,14 @@
+{
+    "name": "RShardMagic",
+    "clone": true,
+    "clonePrefabName": "ShardMagic",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Bronze:1:0:False",
+		"Ruby:1:0:False",
+		"RunestoneMagic:2:0:False"
+    ]
+}

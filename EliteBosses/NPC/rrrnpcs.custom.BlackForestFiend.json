@@ -1,0 +1,258 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "BlackForestFriend",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Lost Villager",
+      "sFaction" : "Players",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 600,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "@1",
+		 "@2",
+		 "@3",
+		 "ArmorBronzeLegs",
+         "HelmetBronze",
+         "ArmorBronzeChest",
+         "CapeTrollHide",
+         "ShieldBronzeBuckler"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aAdvancedCustomAttacks":[
+         {
+            "sOriginalPrefabName":"BowFineWood",
+            "sTargetAnim":"bow_fire",
+            "fAIAttackInterval":10,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":15,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":"bow_projectile",
+            "aStartEffects":[
+               "vfx_crow_death"
+            ],
+            "aHitEffects":null,
+            "aTriggerEffects":null
+         },
+		 {
+            "sOriginalPrefabName":"SwordBronze",
+            "sTargetAnim":"knife_stab",
+            "fAIAttackInterval":5,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":15,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":null,
+            "aHitEffects":null,
+            "aTriggerEffects":null
+         },
+         {
+            "sOriginalPrefabName":"Greydwarf_shaman_heal",
+            "sTargetAnim":"mace_secondary",
+            "fAIAttackInterval":12,
+            "bAIPrioritized":null,
+            "dtAttackDamageOverride":{
+               "fDamage":0,
+               "fBlunt":0,
+               "fSlash":0,
+               "fPierce":0,
+               "fChop":0,
+               "fPickaxe":0,
+               "fFire":0,
+               "fFrost":0,
+               "fLightning":0,
+               "fPoison":0,
+               "fSpirit":0
+            },
+            "fAttackDamageTotalOverride":null,
+            "sAttackProjectileOverride":null,
+            "aStartEffects":[
+               "fx_gdking_rootspawn"
+            ],
+            "aHitEffects":null,
+            "aTriggerEffects":null
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 20,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 3,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0.2,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : false,
+      "bAttackPlayerObjectsWhenAlerted" : false,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 100,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         "MushroomYellow",
+		 "Blueberries"
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 10,
+      "fConsumeSearchInterval" : 60,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+		
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : true,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : true,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bRandomGender" : false,
+      "bNoBeardIfFemale" : false,
+      "aBeardIds" : [
+         "BeardNone",
+         "Beard1",
+         "Beard2",
+         "Beard3",
+         "Beard4",
+         "Beard5",
+         "Beard6",
+         "Beard7",
+         "Beard8",
+         "Beard9",
+         "Beard10"
+      ],
+      "aHairIds" : [
+         "HairNone",
+         "Hair1",
+         "Hair2",
+         "Hair3",
+         "Hair4",
+         "Hair5",
+         "Hair6",
+         "Hair7",
+         "Hair8",
+         "Hair9",
+         "Hair10",
+         "Hair11",
+         "Hair12",
+         "Hair13",
+         "Hair14"
+      ],
+      "cSkinColorMin" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cSkinColorMax" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cHairColorMin" : {
+         "fRed" : 0,
+         "fGreen" : 0,
+         "fBlue" : 1
+      },
+      "cHairColorMax" : {
+         "fRed" : 0,
+         "fGreen" : 0,
+         "fBlue" : 1
+      },
+      "fHairValueMin" : 0.5,
+      "fHairValueMax" : 0.5
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

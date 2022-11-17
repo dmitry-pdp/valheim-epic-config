@@ -1,0 +1,15 @@
+{
+    "name": "RFistFenrirClawV",
+    "clone": true,
+    "clonePrefabName": "FistFenrirClawV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 3,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FistFenrirClaw:1:0:True",
+		"BlackMetal:20:10:True",
+        "LoxPelt:10:5:True",
+        "Needle:5:2:True"
+    ]
+}

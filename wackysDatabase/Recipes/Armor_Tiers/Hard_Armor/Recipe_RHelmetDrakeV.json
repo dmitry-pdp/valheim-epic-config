@@ -1,0 +1,14 @@
+{
+    "name": "RHelmetDrakeV",
+    "clone": true,
+    "clonePrefabName": "HelmetDrakeV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetDrake:1:0:True",
+        "Iron:10:5:True",
+        "LinenThread:15:10:True"
+    ]
+}

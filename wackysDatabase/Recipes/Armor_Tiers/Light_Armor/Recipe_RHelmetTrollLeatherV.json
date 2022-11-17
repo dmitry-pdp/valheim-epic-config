@@ -1,0 +1,15 @@
+{
+    "name": "RHelmetTrollLeatherV",
+    "clone": true,
+    "clonePrefabName": "HelmetTrollLeatherV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetTrollLeatherIV:1:0:True",
+		"TrollHide:6:0:True",
+		"LoxPelt:10:5:True",
+		"LinenThread:10:5:True"
+    ]
+}

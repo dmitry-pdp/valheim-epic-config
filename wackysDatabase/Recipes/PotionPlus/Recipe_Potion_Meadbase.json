@@ -1,0 +1,13 @@
+{
+    "name": "Potion_Meadbase",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneRare:1:0:True",
+        "YmirRemains:4:0:True"
+    ]
+}

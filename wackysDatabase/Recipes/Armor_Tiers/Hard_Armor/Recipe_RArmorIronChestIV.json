@@ -1,0 +1,15 @@
+{
+    "name": "RArmorIronChestIV",
+    "clone": true,
+    "clonePrefabName": "ArmorIronChestIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorIronChest:1:0:True",
+		"Silver:20:5:True",
+        "WolfPelt:5:2:True",
+		"Chain:1:0:True"
+    ]
+}

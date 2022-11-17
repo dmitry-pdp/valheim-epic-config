@@ -1,0 +1,15 @@
+{
+    "name": "RHelmetLeatherIII",
+    "clone": true,
+    "clonePrefabName": "HelmetLeatherIII",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetLeatherII:1:0:True",
+		"DeerHide:4:4:True",
+		"Root:10:2:True",
+        "ElderBark:10:5:True"
+    ]
+}

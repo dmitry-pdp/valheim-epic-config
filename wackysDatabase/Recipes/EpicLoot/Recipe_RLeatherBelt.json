@@ -1,0 +1,13 @@
+{
+    "name": "RLeatherBelt",
+    "clone": true,
+    "clonePrefabName": "LeatherBelt",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "LeatherScraps:10:1:True",
+        "Amber:3:1:True"
+    ]
+}

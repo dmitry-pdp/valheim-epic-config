@@ -1,0 +1,67 @@
+
+[
+    {
+        "AltarPrefabName" : "Eikthyrnir",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "Eikthyr",
+        "SacrificeItem"   : "EmpoweredTrophyDeer",
+        "SacrificeAmount" : 1,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "GDKing",
+        "Name"            : "Ancient bowl",
+        "BossPrefab"      : "gd_king",
+        "SacrificeItem"   : "EmpoweredAncientSeed",
+        "SacrificeAmount" : 1,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "Bonemass",
+        "Name"            : "Boiling death",
+        "BossPrefab"      : "Bonemass",
+        "SacrificeItem"   : "EmpoweredWitheredBone",
+        "SacrificeAmount" : 1,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "Dragonqueen",
+        "Name"            : "Sacrificial altar",
+        "BossPrefab"      : "Dragon",
+        "SacrificeItem"   : "EmpoweredDragonEgg",
+        "SacrificeAmount" : 3,
+        "ItemStandName"   : "dragoneggcup"
+    },
+    {
+        "AltarPrefabName" : "GoblinKing",
+        "Name"            : "Mystical altar",
+        "BossPrefab"      : "GoblinKing",
+        "SacrificeItem"   : "EmpoweredGoblinTotem",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : "goblinking_totemholder"
+    },
+    {
+        "AltarPrefabName" : "SvartalfrQueenAltar_New",
+        "Name"            : "Cursed Altar",
+        "BossPrefab"      : "SvartalfarQueen",
+        "SacrificeItem"   : "CursedEffigy",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "JotunnAltar",
+        "Name"            : "Frozen Altar",
+        "BossPrefab"      : "Jotunn",
+        "SacrificeItem"   : "YmirsSoulEssence",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    },
+    {
+        "AltarPrefabName" : "BlazingDamnedOneAltar",
+        "Name"            : "Blazing Altar",
+        "BossPrefab"      : "HelDemon",
+        "SacrificeItem"   : "FenrirsHeart",
+        "SacrificeAmount" : 5,
+        "ItemStandName"   : null
+    }
+]

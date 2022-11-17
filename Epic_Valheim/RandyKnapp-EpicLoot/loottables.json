@@ -1,0 +1,1740 @@
+{
+
+  "MagicEffectsCount": {
+    "Magic": 	 [[1, 50], [2, 50]],
+    "Rare": 	 [[2, 75], [3, 25]],
+    "Epic": 	 [[3, 75], [4, 25]],
+    "Legendary": [[4, 100]]
+  },
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // ITEM RESTRICTIONS
+  //   - It's not recommended to change any of these, but if you wanted to allow Dyrnwyn or tankards for some reason,
+  //     remove them from this list. You really shouldn't remove Unarmed or CAPE TEST from this list.
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "RestrictedItems": [
+    "$item_tankard",
+    "$item_tankard_odin",
+    "Unarmed",
+    "CAPE TEST",
+    "Cheat sword",
+    "$item_sword_fire",
+    "$item_knife_butcher",
+    "Chef's Hat"
+  ],
+
+  "ItemSets": [
+
+    {
+      "Name": "LegendaryWeaponTier1",
+      "Loot": [
+        { "Item": "Club", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SpearFlint", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AxeStone", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "Bow", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryWeaponTier2",
+      "Loot": [
+        { "Item": "SwordBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "MaceBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SpearBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SpearChitin", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AtgeirBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AxeBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "KnifeCopper", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryWeaponTier3",
+      "Loot": [
+        { "Item": "SwordIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "MaceIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SpearElderbark", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SledgeIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "BowFineWood", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AtgeirIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AxeIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "KnifeChitin", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryWeaponTier4",
+      "Loot": [
+        { "Item": "SwordSilver", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "MaceSilver", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SledgeIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "KnifeSilver", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "BattleaxeCrystal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SpearWolfFang", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "BowHuntsman", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "FistFenrirClaw", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "Battleaxe", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryWeaponTier5",
+      "Loot": [
+        { "Item": "SwordBlackmetal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "SledgeIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "MaceNeedle", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AxeBlackMetal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "KnifeBlackMetal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "BowDraugrFang", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "AtgeirBlackmetal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "Battleaxe", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryArmorTier1",
+      "Loot": [
+        { "Item": "ShieldWood", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ShieldWoodTower", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorLeatherChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorLeatherLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetLeather", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "CapeDeerHide", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "LeatherBelt", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "SilverRing", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryArmorTier2",
+      "Loot": [
+        { "Item": "ShieldBronzeBuckler", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorBronzeChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ShieldTowerBone", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorBronzeLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetBronze", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "CapeTrollHide", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorTrollLeatherChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorTrollLeatherLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetTrollLeather", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "LeatherBelt", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "SilverRing", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryArmorTier3",
+      "Loot": [
+        { "Item": "ShieldIronBuckler", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ShieldIronTower", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "CapeTrollHide", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetIron", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorIronLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorIronChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "ArmorRootChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "ArmorRootLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "HelmetRoot", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "LeatherBelt", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "SilverRing", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryArmorTier4",
+      "Loot": [
+        { "Item": "ShieldSilver", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ShieldSerpentscale", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorWolfChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorWolfLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetDrake", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "CapeWolf", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "ArmorFenringLegs", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "ArmorFenringChest", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "HelmetFenring", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "LeatherBelt", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "SilverRing", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "LegendaryArmorTier5",
+      "Loot": [
+        { "Item": "ShieldBlackmetal", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ShieldBlackmetalTower", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorPaddedCuirass", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "ArmorPaddedGreaves", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "HelmetPadded", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "CapeLox", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+        { "Item": "LeatherBelt", "Weight": 3, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "SilverRing", "Weight": 3, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "MaterialsA",
+      "Loot": [
+        { "Item": "DustRare", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+		{ "Item": "ReagentEpic", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "EssenceMagic", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "RunestoneMagic", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "RunestoneRare", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "MaterialsB",
+      "Loot": [
+        { "Item": "ShardLegendary", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "RunestoneEpic", "Weight": 1, "Rarity": [0, 0, 0, 100] },
+        { "Item": "RunestoneLegendary", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+      ]
+    },
+    {
+      "Name": "BossEliteFix",
+      "Loot": [
+        { "Item": "EssenceMagic" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier0",
+      "Loot": [
+        { "Item": "ErrorDrop" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier1",
+      "Loot": [
+        { "Item": "LegendaryWeaponTier1" },
+        { "Item": "LegendaryArmorTier1" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier2",
+      "Loot": [
+        { "Item": "LegendaryWeaponTier2" },
+        { "Item": "LegendaryArmorTier2" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier3",
+      "Loot": [
+        { "Item": "LegendaryWeaponTier3" },
+        { "Item": "LegendaryArmorTier3" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier4",
+      "Loot": [
+        { "Item": "LegendaryWeaponTier4" },
+        { "Item": "LegendaryArmorTier4" }
+      ]
+    },
+    {
+      "Name": "LegendaryTier5",
+      "Loot": [
+        { "Item": "LegendaryWeaponTier5" },
+        { "Item": "LegendaryArmorTier5" }
+      ]
+    }
+  ],
+  "LootTables": [
+    {
+      "Object": "RRRM_EliteNeck",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteNeckI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteNeckII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBoar",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBoarI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBoarII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreyling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreylingI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreylingII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGhost",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGhostI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGhostII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+	    {
+      "Object": "RRRM_EliteSkeleton",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteSkeletonI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteSkeletonII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreydwarf",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreydwarfI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteGreydwarfII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBlob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBlobI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteBlobII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDraugr",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDraugrI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDraugrII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteSurtling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteSurtlingI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteSurtlingII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteWolf",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteWolfI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteWolfII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDrake",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDrakeI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDrakeII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteCultist",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteCultistI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteCultistII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteFuling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteFulingI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteFulingII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDeathsquito",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDeathsquitoI",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRM_EliteDeathsquitoII",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [50, 50, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "BossEliteFix", "Weight": 1, "Rarity": [0, 50, 50, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 0, 50, 50] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRN_MeadowsFoe",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [100, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 100, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 0, 100, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRN_BlackForestFoe",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [100, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 100, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 0, 100, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRN_SwampFoe",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [100, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 100, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 0, 100, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRN_MountainsFoe",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [100, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 100, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 0, 100, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "RRRN_PlainsFoe",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[0, 90], [1, 10], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [100, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[0, 75], [1, 25], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 100, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[0, 50], [1, 50], [2, 0], [3, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 0, 100, 0] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "Eikthyr",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 100]],
+          "Loot": [
+            { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "gd_king",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 100]],
+          "Loot": [
+            { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "Bonemass",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 100]],
+          "Loot": [
+            { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "Dragon",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 100]],
+          "Loot": [
+            { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+          ]
+        }
+      ]
+    },
+    {
+      "Object": "GoblinKing",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [[1, 100], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]],
+          "Loot": [
+            { "Item": "LegendaryTier0", "Weight": 1, "Rarity": [0, 0, 0, 0] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 100]],
+          "Loot": [
+            { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [0, 0, 0, 100] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "TreasureChest_meadows",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_blackforest",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_forestcrypt",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_fCrypt",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_trollcave",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "shipwreck_karve_chest",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_meadows_buried",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_sunkencrypt",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_swamp",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_mountains",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_plains_stone",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_heath",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+
+
+
+    {
+      "Object": "TreasureMapChest_Meadows",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier1", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_BlackForest",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier2", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Swamp",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier3", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Mountain",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier4", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Plains",
+      "Drops": [[1, 0], [2, 100], [3, 0], [4, 0]],
+      "Loot": [
+        { "Item": "LegendaryTier5", "Weight": 1, "Rarity": [70, 15, 10, 5] },
+        { "Item": "MaterialsA", "Weight": 1, "Rarity": [100, 0, 0, 0] },
+        { "Item": "MaterialsB", "Weight": 0.2, "Rarity": [100, 0, 0, 0] }
+		
+      ]
+    }
+  ]
+}

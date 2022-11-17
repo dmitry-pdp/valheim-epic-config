@@ -1,0 +1,14 @@
+{
+    "name": "Odins_Alchemy_Wand",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "FineWood:8:4:True",
+        "Copper:3:1:True",
+        "SurtlingCore:1:0:True"
+    ]
+}

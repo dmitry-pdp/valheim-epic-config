@@ -1,0 +1,13 @@
+{
+    "name": "RSilverRing",
+    "clone": true,
+    "clonePrefabName": "SilverRing",
+    "craftingStation": "$piece_forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Flint:10:0:True",
+        "RunestoneMagic:3:0:True"
+    ]
+}

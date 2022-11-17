@@ -1,0 +1,14 @@
+{
+    "name": "Hellbroth_of_Eternal_Life",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"EssenceMagic:1:0:True",
+        "Honey:5:0:True",
+        "Dandelion:3:0:True"
+    ]
+}

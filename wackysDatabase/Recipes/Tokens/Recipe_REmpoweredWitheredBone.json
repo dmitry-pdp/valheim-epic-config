@@ -1,0 +1,14 @@
+{
+    "name": "REmpoweredWitheredBone",
+    "clone": true,
+    "clonePrefabName": "EmpoweredWitheredBone",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "WitheredBone:15:0:False",
+        "EssenceMagic:30:0:False",
+		"ShardLegendary:10:0:False"
+    ]
+}

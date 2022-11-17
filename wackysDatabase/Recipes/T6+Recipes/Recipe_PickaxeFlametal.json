@@ -1,0 +1,14 @@
+{
+    "name": "PickaxeFlametal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Flametal:20:10:False",
+        "BurningWorldTreeFragment:4:2:False",
+        "TrophyHelDemon:1:0:False"
+    ]
+}

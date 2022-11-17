@@ -1,0 +1,15 @@
+{
+    "name": "RArmorRootChestIV",
+    "clone": true,
+    "clonePrefabName": "ArmorRootChestIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorRootChest:1:0:True",
+		"Root:4:0:True",
+        "WolfHairBundle:20:5:True",
+        "WolfPelt:5:3:True"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "forge",
+    "m_name": "$piece_forge",
+    "m_description": "$piece_craftingstation",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Wood:10:1:True",
+        "RoundLog:10:1:True",
+        "Stone:10:1:True",
+        "Flint:10:1:True"
+    ]
+}

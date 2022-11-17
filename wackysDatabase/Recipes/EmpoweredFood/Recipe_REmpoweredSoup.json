@@ -1,0 +1,15 @@
+{
+    "name": "REmpoweredSoup",
+    "clone": true,
+    "clonePrefabName": "EmpoweredSoup",
+    "craftingStation": "$piece_cauldron",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneRare:1:0:True",
+		"ReagentEpic:3:0:True",
+        "BloodBag:1:1:True",
+        "Turnip:1:1:True"
+    ]
+}

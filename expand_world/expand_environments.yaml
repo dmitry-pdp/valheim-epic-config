@@ -1,0 +1,1952 @@
+- name: Clear
+  isDefault: true
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.6
+  ambColorDay:
+    r: 0.463
+    g: 0.574
+    b: 0.706
+    a: 1
+  ambColorNight:
+    r: 0.357
+    g: 0.368
+    b: 0.485
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.671
+    b: 0.42
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.772
+    b: 0.484
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.234
+    a: 1
+  sunColorNight:
+    r: 0.364
+    g: 0.384
+    b: 0.486
+    a: 1
+  fogColorMorning:
+    r: 0.246
+    g: 0.255
+    b: 0.272
+    a: 1
+  fogColorDay:
+    r: 0.302
+    g: 0.581
+    b: 0.747
+    a: 1
+  fogColorEvening:
+    r: 0.272
+    g: 0.268
+    b: 0.331
+    a: 1
+  fogColorNight:
+    r: 0.145
+    g: 0.15
+    b: 0.169
+    a: 1
+  fogColorSunMorning:
+    r: 0.581
+    g: 0.368
+    b: 0.252
+    a: 1
+  fogColorSunDay:
+    r: 0.801
+    g: 0.687
+    b: 0.43
+    a: 1
+  fogColorSunEvening:
+    r: 0.507
+    g: 0.239
+    b: 0.239
+    a: 1
+  fogColorSunNight:
+    r: 0.191
+    g: 0.202
+    b: 0.279
+    a: 1
+  fogDensityDay: 0.003
+  lightIntensityDay: 1.7
+  lightIntensityNight: 1
+  sunAngle: 45
+- name: Twilight_Clear
+  isCold: true
+  isColdAtNight: true
+  windMin: 0.2
+  windMax: 0.6
+  rainCloudAlpha: 0.1
+  ambColorDay:
+    r: 0.345
+    g: 0.355
+    b: 0.426
+    a: 1
+  ambColorNight:
+    r: 0.205
+    g: 0.196
+    b: 0.228
+    a: 1
+  sunColorMorning:
+    r: 0.971
+    g: 0.427
+    b: 0.364
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.483
+    b: 0.331
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.096
+    b: 0.096
+    a: 1
+  sunColorNight:
+    r: 0.735
+    g: 0.779
+    b: 1
+    a: 1
+  fogColorMorning:
+    r: 0.246
+    g: 0.255
+    b: 0.272
+    a: 1
+  fogColorDay:
+    r: 0.335
+    g: 0.379
+    b: 0.5
+    a: 1
+  fogColorEvening:
+    r: 0.272
+    g: 0.268
+    b: 0.331
+    a: 1
+  fogColorNight:
+    r: 0.078
+    g: 0.078
+    b: 0.078
+    a: 1
+  fogColorSunMorning:
+    r: 0.551
+    g: 0.375
+    b: 0.28
+    a: 1
+  fogColorSunDay:
+    r: 0.676
+    g: 0.396
+    b: 0.308
+    a: 1
+  fogColorSunEvening:
+    r: 0.684
+    g: 0.353
+    b: 0.251
+    a: 1
+  fogColorSunNight:
+    r: 0.252
+    g: 0.252
+    b: 0.309
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityNight: 0.02
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.3
+  sunAngle: 8
+- name: Misty
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.3
+  rainCloudAlpha: 1.5
+  ambColorDay:
+    r: 0.513
+    g: 0.621
+    b: 0.75
+    a: 1
+  ambColorNight:
+    r: 0.357
+    g: 0.361
+    b: 0.404
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.766
+    b: 0.588
+    a: 1
+  sunColorDay:
+    r: 0.971
+    g: 0.84
+    b: 0.607
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.69
+    b: 0.596
+    a: 1
+  sunColorNight:
+    r: 0.364
+    g: 0.384
+    b: 0.486
+    a: 1
+  fogColorMorning:
+    r: 0.338
+    g: 0.338
+    b: 0.338
+    a: 1
+  fogColorDay:
+    r: 0.647
+    g: 0.701
+    b: 0.772
+    a: 1
+  fogColorEvening:
+    r: 0.308
+    g: 0.306
+    b: 0.338
+    a: 1
+  fogColorNight:
+    r: 0.155
+    g: 0.16
+    b: 0.184
+    a: 1
+  fogColorSunMorning:
+    r: 0.603
+    g: 0.491
+    b: 0.39
+    a: 1
+  fogColorSunDay:
+    r: 0.684
+    g: 0.549
+    b: 0.372
+    a: 1
+  fogColorSunEvening:
+    r: 0.507
+    g: 0.325
+    b: 0.325
+    a: 1
+  fogColorSunNight:
+    r: 0.236
+    g: 0.241
+    b: 0.272
+    a: 1
+  fogDensityMorning: 0.1
+  fogDensityDay: 0.02
+  fogDensityEvening: 0.1
+  fogDensityNight: 0.15
+  lightIntensityDay: 1
+  lightIntensityNight: 1
+  sunAngle: 45
+- name: Darklands_dark
+  isCold: true
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 0.1
+  windMax: 0.6
+  rainCloudAlpha: 4.49
+  ambColorDay:
+    r: 0.27
+    g: 0.327
+    b: 0.36
+    a: 1
+  ambColorNight:
+    r: 0.191
+    g: 0.269
+    b: 0.36
+    a: 1
+  sunColorMorning:
+    r: 0.337
+    g: 0.729
+    b: 0.714
+    a: 1
+  sunColorDay:
+    r: 0.312
+    g: 0.375
+    b: 0.372
+    a: 1
+  sunColorEvening:
+    r: 0.337
+    g: 0.729
+    b: 0.714
+    a: 1
+  sunColorNight:
+    r: 0.337
+    g: 0.729
+    b: 0.714
+    a: 1
+  fogColorMorning:
+    r: 0.047
+    g: 0.165
+    b: 0.196
+    a: 1
+  fogColorDay:
+    r: 0.134
+    g: 0.185
+    b: 0.199
+    a: 1
+  fogColorEvening:
+    r: 0.047
+    g: 0.165
+    b: 0.196
+    a: 1
+  fogColorNight:
+    r: 0.047
+    g: 0.165
+    b: 0.196
+    a: 1
+  fogColorSunMorning:
+    r: 0.063
+    g: 0.239
+    b: 0.286
+    a: 1
+  fogColorSunDay:
+    r: 0.154
+    g: 0.259
+    b: 0.287
+    a: 1
+  fogColorSunEvening:
+    r: 0.063
+    g: 0.239
+    b: 0.286
+    a: 1
+  fogColorSunNight:
+    r: 0.061
+    g: 0.24
+    b: 0.287
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityDay: 0.03
+  fogDensityEvening: 0.03
+  fogDensityNight: 0.03
+  lightIntensityDay: 1
+  sunAngle: 45
+- name: Heath clear
+  isColdAtNight: true
+  windMin: 0.4
+  windMax: 0.8
+  ambColorDay:
+    r: 0.684
+    g: 0.684
+    b: 0.684
+    a: 1
+  ambColorNight:
+    r: 0.357
+    g: 0.368
+    b: 0.485
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.623
+    b: 0.42
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.63
+    b: 0.39
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.234
+    a: 1
+  sunColorNight:
+    r: 0.364
+    g: 0.384
+    b: 0.486
+    a: 1
+  fogColorMorning:
+    r: 0.246
+    g: 0.255
+    b: 0.272
+    a: 1
+  fogColorDay:
+    r: 0.458
+    g: 0.501
+    b: 0.779
+    a: 1
+  fogColorEvening:
+    r: 0.272
+    g: 0.268
+    b: 0.331
+    a: 1
+  fogColorNight:
+    r: 0.128
+    g: 0.13
+    b: 0.14
+    a: 1
+  fogColorSunMorning:
+    r: 0.551
+    g: 0.375
+    b: 0.28
+    a: 1
+  fogColorSunDay:
+    r: 0.757
+    g: 0.45
+    b: 0.284
+    a: 1
+  fogColorSunEvening:
+    r: 0.507
+    g: 0.239
+    b: 0.239
+    a: 1
+  fogColorSunNight:
+    r: 0.18
+    g: 0.188
+    b: 0.243
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityDay: 0.006
+  fogDensityNight: 0.02
+  lightIntensityDay: 1.5
+  lightIntensityNight: 1
+  sunAngle: 45
+- name: DeepForest Mist
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.6
+  ambColorDay:
+    r: 0.307
+    g: 0.546
+    b: 0.684
+    a: 1
+  ambColorNight:
+    r: 0.198
+    g: 0.363
+    b: 0.456
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.72
+    b: 0.507
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.871
+    b: 0.64
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.245
+    b: 0.015
+    a: 1
+  sunColorNight:
+    r: 0.408
+    g: 0.488
+    b: 0.676
+    a: 1
+  fogColorMorning:
+    r: 0.239
+    g: 0.494
+    b: 0.639
+    a: 1
+  fogColorDay:
+    r: 0.239
+    g: 0.494
+    b: 0.639
+    a: 1
+  fogColorEvening:
+    r: 0.239
+    g: 0.494
+    b: 0.639
+    a: 1
+  fogColorNight:
+    r: 0.112
+    g: 0.18
+    b: 0.221
+    a: 1
+  fogColorSunMorning:
+    r: 0.544
+    g: 0.419
+    b: 0.26
+    a: 1
+  fogColorSunDay:
+    r: 0.838
+    g: 0.472
+    b: 0.191
+    a: 1
+  fogColorSunEvening:
+    r: 0.493
+    g: 0.309
+    b: 0.243
+    a: 1
+  fogColorSunNight:
+    r: 0.163
+    g: 0.27
+    b: 0.331
+    a: 1
+  fogDensityMorning: 0.02
+  fogDensityEvening: 0.02
+  fogDensityNight: 0.02
+  lightIntensityDay: 1.5
+  lightIntensityNight: 1.2
+  sunAngle: 45
+- name: GDKing
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.3
+  ambColorDay:
+    r: 0.453
+    g: 0.306
+    b: 0.64
+    a: 1
+  ambColorNight:
+    r: 0.33
+    g: 0.221
+    b: 0.471
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.72
+    b: 0.507
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.613
+    b: 0.316
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.438
+    b: 0.267
+    a: 1
+  sunColorNight:
+    r: 0.506
+    g: 0.714
+    b: 1
+    a: 1
+  fogColorMorning:
+    r: 0.639
+    g: 0.412
+    b: 0.239
+    a: 1
+  fogColorDay:
+    r: 0.639
+    g: 0.413
+    b: 0.239
+    a: 1
+  fogColorEvening:
+    r: 0.639
+    g: 0.412
+    b: 0.239
+    a: 1
+  fogColorNight:
+    r: 0.581
+    g: 0.377
+    b: 0.222
+    a: 1
+  fogColorSunMorning:
+    r: 0.839
+    g: 0.741
+    b: 0.192
+    a: 1
+  fogColorSunDay:
+    r: 0.838
+    g: 0.74
+    b: 0.191
+    a: 1
+  fogColorSunEvening:
+    r: 0.839
+    g: 0.741
+    b: 0.192
+    a: 1
+  fogColorSunNight:
+    r: 0.53
+    g: 0.699
+    b: 0.211
+    a: 1
+  fogDensityMorning: 0.02
+  fogDensityEvening: 0.02
+  fogDensityNight: 0.02
+  lightIntensityDay: 1.5
+  lightIntensityNight: 1.4
+  sunAngle: 45
+- name: Rain
+  isWet: true
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 0.5
+  rainCloudAlpha: 2
+  ambColorDay:
+    r: 0.588
+    g: 0.588
+    b: 0.588
+    a: 1
+  ambColorNight:
+    r: 0.382
+    g: 0.382
+    b: 0.382
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.945
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 0.926
+    g: 0.926
+    b: 0.926
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.947
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.271
+    g: 0.271
+    b: 0.279
+    a: 1
+  fogColorDay:
+    r: 0.331
+    g: 0.331
+    b: 0.331
+    a: 1
+  fogColorEvening:
+    r: 0.235
+    g: 0.235
+    b: 0.235
+    a: 1
+  fogColorNight:
+    r: 0.176
+    g: 0.182
+    b: 0.208
+    a: 1
+  fogColorSunMorning:
+    r: 0.353
+    g: 0.315
+    b: 0.257
+    a: 1
+  fogColorSunDay:
+    r: 0.39
+    g: 0.358
+    b: 0.312
+    a: 1
+  fogColorSunEvening:
+    r: 0.338
+    g: 0.303
+    b: 0.251
+    a: 1
+  fogColorSunNight:
+    r: 0.213
+    g: 0.235
+    b: 0.287
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityDay: 0.03
+  fogDensityEvening: 0.03
+  fogDensityNight: 0.03
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.77
+  sunAngle: 45
+- name: LightRain
+  isWet: true
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 0.1
+  windMax: 0.6
+  rainCloudAlpha: 0.3
+  ambientVol: 0.7
+  ambColorDay:
+    r: 0.62
+    g: 0.641
+    b: 0.691
+    a: 1
+  ambColorNight:
+    r: 0.382
+    g: 0.382
+    b: 0.382
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.879
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.952
+    b: 0.75
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.843
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.271
+    g: 0.271
+    b: 0.279
+    a: 1
+  fogColorDay:
+    r: 0.336
+    g: 0.357
+    b: 0.375
+    a: 1
+  fogColorEvening:
+    r: 0.235
+    g: 0.235
+    b: 0.235
+    a: 1
+  fogColorNight:
+    r: 0.176
+    g: 0.182
+    b: 0.208
+    a: 1
+  fogColorSunMorning:
+    r: 0.353
+    g: 0.315
+    b: 0.257
+    a: 1
+  fogColorSunDay:
+    r: 0.39
+    g: 0.358
+    b: 0.312
+    a: 1
+  fogColorSunEvening:
+    r: 0.36
+    g: 0.272
+    b: 0.215
+    a: 1
+  fogColorSunNight:
+    r: 0.213
+    g: 0.235
+    b: 0.287
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityDay: 0.03
+  fogDensityEvening: 0.03
+  fogDensityNight: 0.03
+  lightIntensityDay: 0.8
+  lightIntensityNight: 0.9
+  sunAngle: 45
+- name: ThunderStorm
+  isWet: true
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 0.8
+  rainCloudAlpha: 2
+  ambientVol: 0.8
+  ambColorDay:
+    r: 0.588
+    g: 0.588
+    b: 0.588
+    a: 1
+  ambColorNight:
+    r: 0.382
+    g: 0.382
+    b: 0.382
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.945
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 0.926
+    g: 0.926
+    b: 0.926
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.947
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.271
+    g: 0.271
+    b: 0.279
+    a: 1
+  fogColorDay:
+    r: 0.331
+    g: 0.331
+    b: 0.331
+    a: 1
+  fogColorEvening:
+    r: 0.235
+    g: 0.235
+    b: 0.235
+    a: 1
+  fogColorNight:
+    r: 0.176
+    g: 0.182
+    b: 0.208
+    a: 1
+  fogColorSunMorning:
+    r: 0.353
+    g: 0.315
+    b: 0.257
+    a: 1
+  fogColorSunDay:
+    r: 0.39
+    g: 0.358
+    b: 0.312
+    a: 1
+  fogColorSunEvening:
+    r: 0.338
+    g: 0.303
+    b: 0.251
+    a: 1
+  fogColorSunNight:
+    r: 0.228
+    g: 0.239
+    b: 0.279
+    a: 1
+  fogDensityMorning: 0.03
+  fogDensityDay: 0.03
+  fogDensityEvening: 0.03
+  fogDensityNight: 0.03
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.77
+  sunAngle: 45
+- name: Eikthyr
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 0.9
+  rainCloudAlpha: 2
+  ambColorDay:
+    r: 0.662
+    g: 0.345
+    b: 0.345
+    a: 1
+  ambColorNight:
+    r: 0.662
+    g: 0.345
+    b: 0.345
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.945
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 0.926
+    g: 0.926
+    b: 0.926
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.947
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.368
+    g: 0.243
+    b: 0.243
+    a: 1
+  fogColorDay:
+    r: 0.368
+    g: 0.243
+    b: 0.243
+    a: 1
+  fogColorEvening:
+    r: 0.368
+    g: 0.243
+    b: 0.243
+    a: 1
+  fogColorNight:
+    r: 0.368
+    g: 0.243
+    b: 0.243
+    a: 1
+  fogColorSunMorning:
+    r: 0.353
+    g: 0.315
+    b: 0.257
+    a: 1
+  fogColorSunDay:
+    r: 0.39
+    g: 0.358
+    b: 0.312
+    a: 1
+  fogColorSunEvening:
+    r: 0.338
+    g: 0.303
+    b: 0.251
+    a: 1
+  fogColorSunNight:
+    r: 0.228
+    g: 0.239
+    b: 0.279
+    a: 1
+  fogDensityMorning: 0.05
+  fogDensityDay: 0.05
+  fogDensityEvening: 0.05
+  fogDensityNight: 0.05
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.77
+  sunAngle: 45
+- name: GoblinKing
+  alwaysDark: true
+  windMin: 0.5
+  windMax: 0.7
+  rainCloudAlpha: 2
+  ambColorDay:
+    r: 0.592
+    g: 0.345
+    b: 0.662
+    a: 1
+  ambColorNight:
+    r: 0.662
+    g: 0.345
+    b: 0.509
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.945
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 0.926
+    g: 0.926
+    b: 0.926
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.947
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.361
+    g: 0.243
+    b: 0.368
+    a: 1
+  fogColorDay:
+    r: 0.361
+    g: 0.243
+    b: 0.368
+    a: 1
+  fogColorEvening:
+    r: 0.361
+    g: 0.243
+    b: 0.368
+    a: 1
+  fogColorNight:
+    r: 0.361
+    g: 0.243
+    b: 0.368
+    a: 1
+  fogColorSunMorning:
+    r: 0.337
+    g: 0.251
+    b: 0.553
+    a: 1
+  fogColorSunDay:
+    r: 0.336
+    g: 0.251
+    b: 0.551
+    a: 1
+  fogColorSunEvening:
+    r: 0.337
+    g: 0.251
+    b: 0.553
+    a: 1
+  fogColorSunNight:
+    r: 0.228
+    g: 0.239
+    b: 0.279
+    a: 1
+  fogDensityMorning: 0.05
+  fogDensityDay: 0.05
+  fogDensityEvening: 0.05
+  fogDensityNight: 0.05
+  lightIntensityDay: 0.6
+  lightIntensityNight: 1
+  sunAngle: 45
+- name: nofogts
+  isWet: true
+  isColdAtNight: true
+  alwaysDark: true
+  windMin: 1
+  rainCloudAlpha: 2
+  ambColorDay:
+    r: 0.588
+    g: 0.588
+    b: 0.588
+    a: 1
+  ambColorNight:
+    r: 0.382
+    g: 0.382
+    b: 0.382
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.945
+    b: 0.773
+    a: 1
+  sunColorDay:
+    r: 0.926
+    g: 0.926
+    b: 0.926
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.947
+    b: 0.772
+    a: 1
+  sunColorNight:
+    r: 0.292
+    g: 0.304
+    b: 0.368
+    a: 1
+  fogColorMorning:
+    r: 0.271
+    g: 0.271
+    b: 0.279
+    a: 1
+  fogColorDay:
+    r: 0.331
+    g: 0.331
+    b: 0.331
+    a: 1
+  fogColorEvening:
+    r: 0.235
+    g: 0.235
+    b: 0.235
+    a: 1
+  fogColorNight:
+    r: 0.176
+    g: 0.182
+    b: 0.208
+    a: 1
+  fogColorSunMorning:
+    r: 0.353
+    g: 0.315
+    b: 0.257
+    a: 1
+  fogColorSunDay:
+    r: 0.39
+    g: 0.358
+    b: 0.312
+    a: 1
+  fogColorSunEvening:
+    r: 0.338
+    g: 0.303
+    b: 0.251
+    a: 1
+  fogColorSunNight:
+    r: 0.228
+    g: 0.239
+    b: 0.279
+    a: 1
+  fogDensityMorning: 0.005
+  fogDensityDay: 0.005
+  fogDensityEvening: 0.005
+  fogDensityNight: 0.005
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.77
+  sunAngle: 45
+- name: SwampRain
+  isWet: true
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.3
+  rainCloudAlpha: 2
+  ambientVol: 0.2
+  ambColorDay:
+    r: 0.309
+    g: 0.338
+    b: 0.281
+    a: 1
+  ambColorNight:
+    r: 0.295
+    g: 0.316
+    b: 0.272
+    a: 1
+  sunColorMorning:
+    r: 0.937
+    g: 1
+    b: 0.765
+    a: 1
+  sunColorDay:
+    r: 0.938
+    g: 1
+    b: 0.765
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.93
+    b: 0.64
+    a: 1
+  sunColorNight:
+    r: 0.739
+    g: 0.859
+    b: 0.89
+    a: 1
+  fogColorMorning:
+    r: 0.208
+    g: 0.219
+    b: 0.192
+    a: 1
+  fogColorDay:
+    r: 0.331
+    g: 0.331
+    b: 0.331
+    a: 1
+  fogColorEvening:
+    r: 0.208
+    g: 0.221
+    b: 0.193
+    a: 1
+  fogColorNight:
+    r: 0.089
+    g: 0.213
+    b: 0.143
+    a: 1
+  fogColorSunMorning:
+    r: 0.419
+    g: 0.315
+    b: 0.203
+    a: 1
+  fogColorSunDay:
+    r: 0.397
+    g: 0.396
+    b: 0.394
+    a: 1
+  fogColorSunEvening:
+    r: 0.331
+    g: 0.267
+    b: 0.2
+    a: 1
+  fogColorSunNight:
+    r: 0.098
+    g: 0.243
+    b: 0.215
+    a: 1
+  fogDensityMorning: 0.02
+  fogDensityDay: 0.02
+  fogDensityEvening: 0.02
+  fogDensityNight: 0.02
+  lightIntensityDay: 0.6
+  lightIntensityNight: 0.5
+  sunAngle: 45
+- name: Bonemass
+  isWet: true
+  isColdAtNight: true
+  windMin: 0.1
+  windMax: 0.3
+  rainCloudAlpha: 1
+  ambientVol: 0.5
+  ambColorDay:
+    r: 0.511
+    g: 0.515
+    b: 0.235
+    a: 1
+  ambColorNight:
+    r: 0.51
+    g: 0.514
+    b: 0.235
+    a: 1
+  sunColorMorning:
+    r: 0.996
+    g: 1
+    b: 0.765
+    a: 1
+  sunColorDay:
+    r: 0.997
+    g: 1
+    b: 0.765
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.93
+    b: 0.64
+    a: 1
+  sunColorNight:
+    r: 0.343
+    g: 0.534
+    b: 0.647
+    a: 1
+  fogColorMorning:
+    r: 0.427
+    g: 0.388
+    b: 0.169
+    a: 1
+  fogColorDay:
+    r: 0.426
+    g: 0.387
+    b: 0.169
+    a: 1
+  fogColorEvening:
+    r: 0.427
+    g: 0.388
+    b: 0.169
+    a: 1
+  fogColorNight:
+    r: 0.427
+    g: 0.388
+    b: 0.169
+    a: 1
+  fogColorSunMorning:
+    r: 0.372
+    g: 0.264
+    b: 0.149
+    a: 1
+  fogColorSunDay:
+    r: 0.427
+    g: 0.388
+    b: 0.169
+    a: 1
+  fogColorSunEvening:
+    r: 0.427
+    g: 0.335
+    b: 0.169
+    a: 1
+  fogColorSunNight:
+    r: 0.272
+    g: 0.229
+    b: 0.09
+    a: 1
+  fogDensityMorning: 0.02
+  fogDensityDay: 0.02
+  fogDensityEvening: 0.02
+  fogDensityNight: 0.02
+  lightIntensityDay: 0.6
+  lightIntensityNight: 0.4
+  sunAngle: 45
+- name: Snow
+  isFreezing: true
+  windMin: 0.1
+  windMax: 0.6
+  rainCloudAlpha: 0.1
+  ambColorDay:
+    r: 0.463
+    g: 0.573
+    b: 0.706
+    a: 1
+  ambColorNight:
+    r: 0.35
+    g: 0.362
+    b: 0.485
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.671
+    b: 0.42
+    a: 1
+  sunColorDay:
+    r: 0.949
+    g: 0.804
+    b: 0.545
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.439
+    b: 0.267
+    a: 1
+  sunColorNight:
+    r: 0.393
+    g: 0.411
+    b: 0.5
+    a: 1
+  fogColorMorning:
+    r: 0.247
+    g: 0.255
+    b: 0.271
+    a: 1
+  fogColorDay:
+    r: 0.481
+    g: 0.552
+    b: 0.647
+    a: 1
+  fogColorEvening:
+    r: 0.271
+    g: 0.267
+    b: 0.329
+    a: 1
+  fogColorNight:
+    r: 0.154
+    g: 0.154
+    b: 0.154
+    a: 1
+  fogColorSunMorning:
+    r: 0.537
+    g: 0.371
+    b: 0.26
+    a: 1
+  fogColorSunDay:
+    r: 0.679
+    g: 0.518
+    b: 0.31
+    a: 1
+  fogColorSunEvening:
+    r: 0.506
+    g: 0.239
+    b: 0.239
+    a: 1
+  fogColorSunNight:
+    r: 0.153
+    g: 0.153
+    b: 0.153
+    a: 1
+  fogDensityMorning: 0.004
+  fogDensityDay: 0.004
+  fogDensityEvening: 0.004
+  fogDensityNight: 0.004
+  lightIntensityNight: 0.4
+  sunAngle: 45
+- name: Twilight_Snow
+  isCold: true
+  isColdAtNight: true
+  windMin: 0.3
+  windMax: 0.6
+  rainCloudAlpha: 0.4
+  ambColorDay:
+    r: 0.322
+    g: 0.399
+    b: 0.493
+    a: 1
+  ambColorNight:
+    r: 0.311
+    g: 0.321
+    b: 0.419
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.671
+    b: 0.42
+    a: 1
+  sunColorDay:
+    r: 0.949
+    g: 0.804
+    b: 0.545
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.439
+    b: 0.267
+    a: 1
+  sunColorNight:
+    r: 0.42
+    g: 0.441
+    b: 0.544
+    a: 1
+  fogColorMorning:
+    r: 0.247
+    g: 0.255
+    b: 0.271
+    a: 1
+  fogColorDay:
+    r: 0.325
+    g: 0.372
+    b: 0.434
+    a: 1
+  fogColorEvening:
+    r: 0.271
+    g: 0.267
+    b: 0.329
+    a: 1
+  fogColorNight:
+    r: 0.078
+    g: 0.078
+    b: 0.078
+    a: 1
+  fogColorSunMorning:
+    r: 0.537
+    g: 0.371
+    b: 0.26
+    a: 1
+  fogColorSunDay:
+    r: 0.679
+    g: 0.442
+    b: 0.31
+    a: 1
+  fogColorSunEvening:
+    r: 0.506
+    g: 0.239
+    b: 0.239
+    a: 1
+  fogColorSunNight:
+    r: 0.175
+    g: 0.209
+    b: 0.243
+    a: 1
+  fogDensityMorning: 0.03
+  lightIntensityDay: 0.5
+  lightIntensityNight: 0.5
+  sunAngle: 8
+- name: Twilight_SnowStorm
+  isFreezing: true
+  isColdAtNight: true
+  windMin: 0.7
+  rainCloudAlpha: 2
+  ambientVol: 0.6
+  ambColorDay:
+    r: 0.367
+    g: 0.4
+    b: 0.441
+    a: 1
+  ambColorNight:
+    r: 0.209
+    g: 0.212
+    b: 0.243
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.783
+    b: 0.618
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 0.881
+    b: 0.669
+    a: 1
+  sunColorEvening:
+    r: 0.985
+    g: 0.631
+    b: 0.522
+    a: 1
+  sunColorNight:
+    r: 0.42
+    g: 0.441
+    b: 0.544
+    a: 1
+  fogColorMorning:
+    r: 0.221
+    g: 0.221
+    b: 0.221
+    a: 1
+  fogColorDay:
+    r: 0.36
+    g: 0.36
+    b: 0.36
+    a: 1
+  fogColorEvening:
+    r: 0.419
+    g: 0.419
+    b: 0.419
+    a: 1
+  fogColorNight:
+    r: 0.11
+    g: 0.113
+    b: 0.113
+    a: 1
+  fogColorSunMorning:
+    r: 0.544
+    g: 0.434
+    b: 0.36
+    a: 1
+  fogColorSunDay:
+    r: 0.507
+    g: 0.436
+    b: 0.343
+    a: 1
+  fogColorSunEvening:
+    r: 0.522
+    g: 0.334
+    b: 0.334
+    a: 1
+  fogColorSunNight:
+    r: 0.226
+    g: 0.246
+    b: 0.279
+    a: 1
+  fogDensityMorning: 0.05
+  fogDensityDay: 0.05
+  fogDensityEvening: 0.05
+  fogDensityNight: 0.05
+  lightIntensityDay: 0.4
+  lightIntensityNight: 0.4
+  sunAngle: 8
+- name: SnowStorm
+  isFreezing: true
+  isColdAtNight: true
+  windMin: 0.8
+  rainCloudAlpha: 2
+  ambientVol: 0.6
+  ambColorDay:
+    r: 0.86
+    g: 0.86
+    b: 0.86
+    a: 1
+  ambColorNight:
+    r: 0.39
+    g: 0.381
+    b: 0.381
+    a: 1
+  sunColorMorning:
+    r: 0.985
+    g: 0.874
+    b: 0.79
+    a: 1
+  sunColorDay:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.82
+    b: 0.765
+    a: 1
+  sunColorNight:
+    r: 0.367
+    g: 0.377
+    b: 0.426
+    a: 1
+  fogColorMorning:
+    a: 1
+  fogColorDay:
+    r: 0.728
+    g: 0.728
+    b: 0.728
+    a: 1
+  fogColorEvening:
+    r: 0.419
+    g: 0.419
+    b: 0.419
+    a: 1
+  fogColorNight:
+    r: 0.184
+    g: 0.184
+    b: 0.184
+    a: 1
+  fogColorSunMorning:
+    r: 0.412
+    g: 0.325
+    b: 0.266
+    a: 1
+  fogColorSunDay:
+    r: 0.551
+    g: 0.541
+    b: 0.535
+    a: 1
+  fogColorSunEvening:
+    r: 0.522
+    g: 0.334
+    b: 0.334
+    a: 1
+  fogColorSunNight:
+    r: 0.153
+    g: 0.153
+    b: 0.153
+    a: 1
+  fogDensityMorning: 0.05
+  fogDensityDay: 0.05
+  fogDensityEvening: 0.05
+  fogDensityNight: 0.05
+  lightIntensityDay: 0.7
+  lightIntensityNight: 0.2
+  sunAngle: 45
+- name: Moder
+  isFreezing: true
+  isColdAtNight: true
+  windMin: 1
+  rainCloudAlpha: 2
+  ambientVol: 0.6
+  ambColorDay:
+    r: 0.479
+    g: 0.338
+    b: 0.516
+    a: 1
+  ambColorNight:
+    r: 0.28
+    g: 0.197
+    b: 0.303
+    a: 1
+  sunColorMorning:
+    r: 0.165
+    g: 0.255
+    b: 0.302
+    a: 1
+  sunColorDay:
+    r: 0.164
+    g: 0.256
+    b: 0.301
+    a: 1
+  sunColorEvening:
+    r: 0.165
+    g: 0.255
+    b: 0.302
+    a: 1
+  sunColorNight:
+    r: 0.145
+    g: 0.223
+    b: 0.263
+    a: 1
+  fogColorMorning:
+    r: 0.588
+    g: 0.125
+    b: 0.125
+    a: 1
+  fogColorDay:
+    r: 0.934
+    a: 1
+  fogColorEvening:
+    r: 0.265
+    g: 0.049
+    b: 0.049
+    a: 1
+  fogColorNight:
+    r: 0.449
+    a: 1
+  fogColorSunMorning:
+    r: 0.184
+    g: 0.357
+    b: 0.443
+    a: 1
+  fogColorSunDay:
+    g: 0.385
+    b: 0.574
+    a: 1
+  fogColorSunEvening:
+    g: 0.178
+    b: 0.265
+    a: 1
+  fogColorSunNight:
+    r: 0.048
+    g: 0.212
+    b: 0.294
+    a: 1
+  fogDensityMorning: 0.003
+  fogDensityDay: 0.003
+  fogDensityEvening: 0.003
+  fogDensityNight: 0.003
+  lightIntensityDay: 0.7
+  lightIntensityNight: 0.5
+  sunAngle: 45
+- name: Ashrain
+  windMin: 0.1
+  windMax: 0.5
+  rainCloudAlpha: 1
+  ambColorDay:
+    r: 0.669
+    g: 0.418
+    b: 0.344
+    a: 1
+  ambColorNight:
+    r: 0.671
+    g: 0.42
+    b: 0.345
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 0.671
+    b: 0.42
+    a: 1
+  sunColorDay:
+    r: 0.949
+    g: 0.804
+    b: 0.545
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.439
+    b: 0.267
+    a: 1
+  sunColorNight:
+    r: 0.42
+    g: 0.441
+    b: 0.544
+    a: 1
+  fogColorMorning:
+    r: 0.514
+    g: 0.271
+    b: 0.271
+    a: 1
+  fogColorDay:
+    r: 0.515
+    g: 0.272
+    b: 0.272
+    a: 1
+  fogColorEvening:
+    r: 0.514
+    g: 0.271
+    b: 0.271
+    a: 1
+  fogColorNight:
+    r: 0.485
+    g: 0.007
+    b: 0.007
+    a: 1
+  fogColorSunMorning:
+    r: 0.434
+    g: 0.335
+    b: 0.207
+    a: 1
+  fogColorSunDay:
+    r: 0.679
+    g: 0.518
+    b: 0.31
+    a: 1
+  fogColorSunEvening:
+    r: 0.471
+    g: 0.364
+    b: 0.225
+    a: 1
+  fogColorSunNight:
+    r: 0.486
+    g: 0.008
+    b: 0.008
+    a: 1
+  fogDensityMorning: 0.02
+  fogDensityDay: 0.02
+  fogDensityEvening: 0.02
+  fogDensityNight: 0.02
+  lightIntensityDay: 1.3
+  lightIntensityNight: 0.8
+  sunAngle: 45
+- name: Crypt
+  alwaysDark: true
+  windMax: 0
+  ambientVol: 0.5
+  ambientList: Crypt
+  musicMorning: '-'
+  musicEvening: '-'
+  musicDay: forestcrypt
+  musicNight: forestcrypt
+  ambColorDay:
+    r: 0.314
+    g: 0.314
+    b: 0.314
+    a: 1
+  ambColorNight:
+    r: 0.314
+    g: 0.314
+    b: 0.314
+    a: 1
+  sunColorMorning:
+    r: 0.941
+    g: 0.882
+    b: 0.727
+    a: 1
+  sunColorDay:
+    r: 0.949
+    g: 0.949
+    b: 0.949
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.743
+    b: 0.743
+    a: 1
+  sunColorNight:
+    r: 0.42
+    g: 0.441
+    b: 0.544
+    a: 1
+  fogColorMorning:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorDay:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorEvening:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorNight:
+    r: 0.176
+    g: 0.182
+    b: 0.216
+    a: 1
+  fogColorSunMorning:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorSunDay:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorSunEvening:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogColorSunNight:
+    r: 0.176
+    g: 0.18
+    b: 0.215
+    a: 1
+  fogDensityMorning: 0.1
+  fogDensityDay: 0.1
+  fogDensityEvening: 0.1
+  fogDensityNight: 0.1
+  lightIntensityDay: 0
+- name: SunkenCrypt
+  alwaysDark: true
+  windMax: 0
+  ambientVol: 1
+  ambientList: SunkenCrypt
+  musicMorning: '-'
+  musicEvening: '-'
+  musicDay: '-'
+  musicNight: '-'
+  ambColorDay:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  ambColorNight:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  sunColorMorning:
+    r: 0.941
+    g: 0.882
+    b: 0.727
+    a: 1
+  sunColorDay:
+    r: 0.949
+    g: 0.949
+    b: 0.949
+    a: 1
+  sunColorEvening:
+    r: 1
+    g: 0.743
+    b: 0.743
+    a: 1
+  sunColorNight:
+    r: 0.42
+    g: 0.441
+    b: 0.544
+    a: 1
+  fogColorMorning:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorDay:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorEvening:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorNight:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorSunMorning:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorSunDay:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorSunEvening:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogColorSunNight:
+    r: 0.102
+    g: 0.235
+    b: 0.243
+    a: 1
+  fogDensityMorning: 0.2
+  fogDensityDay: 0.2
+  fogDensityEvening: 0.2
+  fogDensityNight: 0.2
+  lightIntensityDay: 0
+- name: Caves
+  isFreezing: true
+  isCold: true
+  alwaysDark: true
+  windMax: 0
+  ambientVol: 0.85
+  ambientList: FrostCaves
+  musicMorning: '-'
+  musicEvening: '-'
+  musicDay: '-'
+  musicNight: '-'
+  ambColorDay:
+    r: 0.145
+    g: 0.197
+    b: 0.25
+    a: 1
+  ambColorNight:
+    r: 0.145
+    g: 0.195
+    b: 0.25
+    a: 1
+  sunColorMorning:
+    r: 1
+    g: 1
+    b: 1
+  sunColorDay:
+    r: 1
+    g: 1
+    b: 1
+  sunColorEvening:
+    r: 1
+    g: 1
+    b: 1
+  sunColorNight:
+    r: 1
+    g: 1
+    b: 1
+  fogColorMorning:
+    r: 0.425
+    g: 0.425
+    b: 0.425
+  fogColorDay:
+    r: 0.453
+    g: 0.453
+    b: 0.453
+  fogColorEvening:
+    r: 0.443
+    g: 0.443
+    b: 0.443
+  fogColorNight:
+    r: 0.425
+    g: 0.425
+    b: 0.425
+  fogColorSunMorning:
+    r: 0.491
+    g: 0.491
+    b: 0.491
+  fogColorSunDay:
+    r: 0.5
+    g: 0.5
+    b: 0.5
+  fogColorSunEvening:
+    r: 0.509
+    g: 0.509
+    b: 0.509
+  fogColorSunNight:
+    r: 0.481
+    g: 0.481
+    b: 0.481
+  lightIntensityDay: 0.1
+  lightIntensityNight: 0.1
+  sunAngle: 90

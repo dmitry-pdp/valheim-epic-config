@@ -1,0 +1,15 @@
+{
+    "name": "RMushroomSkewer",
+    "clone": true,
+    "clonePrefabName": "MushroomSkewer",
+    "craftingStation": "$piece_cauldron",
+    "minStationLevel": 3,
+    "amount": 2,
+    "disabled": false,
+    "reqs": [
+        "MushroomYellow:5:0:True",
+        "Mushroom:5:0:True",
+		"Onion:5:0:True",
+		"MushroomBlue:10:0:True"
+    ]
+}

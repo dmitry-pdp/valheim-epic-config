@@ -1,0 +1,15 @@
+{
+    "name": "Odins_Weapon_Oil",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"EssenceMagic:3:0:True",
+        "RunestoneMagic:1:0:True",
+        "ReagentEpic:1:0:True",
+		"SurtlingCore:1:0:True"
+    ]
+}

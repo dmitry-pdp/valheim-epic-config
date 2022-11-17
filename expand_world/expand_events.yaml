@@ -1,0 +1,842 @@
+- name: army_eikthyr
+  duration: 90
+  biome:
+  - meadows
+  - blackforest
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys:
+  - defeated_eikthyr
+  startMessage: $event_eikthyrarmy_start
+  endMessage: $event_eikthyrarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Neck
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Boar
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_goblin
+  duration: 120
+  biome:
+  - meadows
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - defeated_dragon
+  notRequiredGlobalKeys:
+  - defeated_goblinking
+  startMessage: $event_goblinarmy_start
+  endMessage: $event_goblinarmy_end
+  forceMusic: CombatEventL4
+  spawns:
+  - prefab: Goblin
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    spawnChance: 58.2
+    maxSpawned: 8
+    spawnInterval: 10
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupSizeMax: 4
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinBrute
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    spawnChance: 47
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinShaman
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    spawnChance: 47
+    maxSpawned: 1
+    spawnInterval: 20
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_theelder
+  duration: 120
+  biome:
+  - meadows
+  - swamp
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - defeated_eikthyr
+  notRequiredGlobalKeys:
+  - defeated_gdking
+  startMessage: $event_gdkingarmy_start
+  endMessage: $event_gdkingarmy_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Greydwarf
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: 0
+    requiredEnvironments: []
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greyling
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 4
+    spawnInterval: 5
+    minAltitude: 0
+    requiredEnvironments: []
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Shaman
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Elite
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: wolves
+  duration: 120
+  nearBaseOnly: false
+  biome:
+  - mountain
+  - plains
+  requiredGlobalKeys:
+  - defeated_bonemass
+  notRequiredGlobalKeys: []
+  startMessage: $event_wolves_start
+  endMessage: $event_wolves_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Wolf
+    biome:
+    - mountain
+    - plains
+    - 128
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 6
+    spawnInterval: 2
+    minAltitude: 0
+    maxAltitude: 2000
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  pauseIfNoPlayerInArea: false
+- name: skeletons
+  duration: 120
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - plains
+  - mistlands
+  requiredGlobalKeys:
+  - defeated_bonemass
+  notRequiredGlobalKeys: []
+  startMessage: $event_skeletons_start
+  endMessage: $event_skeletons_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Skeleton
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 20
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 2000
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupSizeMin: 4
+    groupSizeMax: 6
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton_Poison
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    spawnChance: 54
+    maxSpawned: 1
+    spawnInterval: 15
+    minAltitude: -1
+    maxAltitude: 2000
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+- name: army_bonemass
+  duration: 150
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - defeated_gdking
+  notRequiredGlobalKeys:
+  - defeated_bonemass
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Draugr
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 3
+    spawnInterval: 5
+    minAltitude: -1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: -1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: army_moder
+  duration: 150
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - defeated_bonemass
+  notRequiredGlobalKeys:
+  - defeated_dragon
+  startMessage: $event_moderarmy_start
+  endMessage: $event_moderarmy_end
+  forceMusic: CombatEventL4
+  forceEnvironment: Snow
+  spawns:
+  - prefab: Hatchling
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 3
+    spawnInterval: 10
+    minAltitude: -1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+- name: blobs
+  duration: 120
+  biome:
+  - meadows
+  - swamp
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - defeated_bonemass
+  notRequiredGlobalKeys: []
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Blob
+    biome:
+    - meadows
+    - swamp
+    - blackforest
+    - plains
+    - 128
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 5
+    spawnInterval: 2
+    minAltitude: -1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupSizeMax: 3
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: BlobElite
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 2
+    spawnInterval: 10
+    minAltitude: -1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: foresttrolls
+  duration: 80
+  biome:
+  - meadows
+  - swamp
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - KilledTroll
+  - defeated_gdking
+  notRequiredGlobalKeys: []
+  startMessage: $event_foresttrolls_start
+  endMessage: $event_foresttrolls_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Troll
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: surtlings
+  duration: 120
+  biome:
+  - meadows
+  - swamp
+  - blackforest
+  - plains
+  requiredGlobalKeys:
+  - killed_surtling
+  - defeated_bonemass
+  notRequiredGlobalKeys: []
+  startMessage: $event_surtlings_start
+  endMessage: $event_surtlings_end
+  forceMusic: CombatEventL3
+  forceEnvironment: Ashrain
+  spawns:
+  - prefab: Surtling
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    - 4
+    maxSpawned: 4
+    spawnInterval: 2
+    minAltitude: 1
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: boss_eikthyr
+  duration: 0
+  nearBaseOnly: false
+  biome:
+  - meadows
+  - darkmeadows
+  - swamp
+  - blackforest
+  - plains
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys: []
+  forceMusic: boss_eikthyr
+  forceEnvironment: Eikthyr
+  spawns: []
+  random: false
+- name: boss_bonemass
+  duration: 0
+  nearBaseOnly: false
+  biome:
+  - meadows
+  - swamp
+  - darkswamp
+  - blackforest
+  - plains
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys: []
+  forceMusic: boss_bonemass
+  forceEnvironment: Bonemass
+  spawns: []
+  random: false
+- name: boss_moder
+  duration: 0
+  nearBaseOnly: false
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - darkmountain
+  - blackforest
+  - plains
+  - ashlands
+  - deepnorth
+  - 128
+  - ocean
+  - mistlands
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys: []
+  forceMusic: boss_moder
+  forceEnvironment: Moder
+  spawns: []
+  random: false
+- name: boss_gdking
+  duration: 0
+  nearBaseOnly: false
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - darkblackforest
+  - plains
+  - ashlands
+  - deepnorth
+  - 128
+  - ocean
+  - mistlands
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys: []
+  forceMusic: boss_gdking
+  forceEnvironment: GDKing
+  spawns: []
+  random: false
+- name: boss_goblinking
+  duration: 0
+  nearBaseOnly: false
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - plains
+  - darkplains
+  - ashlands
+  - deepnorth
+  - 128
+  - ocean
+  - mistlands
+  requiredGlobalKeys: []
+  notRequiredGlobalKeys: []
+  forceMusic: boss_goblinking
+  forceEnvironment: GoblinKing
+  spawns: []
+  random: false
+- name: RRR_EvGrigs_T4
+  duration: 120
+  biome: []
+  requiredGlobalKeys:
+  - defeated_bonemass
+  notRequiredGlobalKeys:
+  - defeated_dragon
+  startMessage: You'd better find a place to hide...
+  endMessage: "...it's over?"
+  forceMusic: CombatEventL4
+  forceEnvironment: Darklands_dark
+  spawns:
+  - prefab: RRR_Grig
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    maxSpawned: 2
+    spawnInterval: 4
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 3
+    huntPlayer: true
+- name: RRR_EvGrigs_T5
+  duration: 120
+  biome: []
+  requiredGlobalKeys:
+  - defeated_dragon
+  notRequiredGlobalKeys:
+  - defeated_goblinking
+  startMessage: You'd better find a place to hide...
+  endMessage: "...it's over?"
+  forceMusic: CombatEventL4
+  forceEnvironment: Darklands_dark
+  spawns:
+  - prefab: RRR_Grig
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    maxSpawned: 2
+    spawnInterval: 4
+    maxLevel: 2
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 3
+    huntPlayer: true
+- name: RRR_EvGrigs_T6
+  duration: 120
+  biome: []
+  requiredGlobalKeys:
+  - defeated_goblinking
+  notRequiredGlobalKeys: []
+  startMessage: You'd better find a place to hide...
+  endMessage: "...it's over?"
+  forceMusic: CombatEventL4
+  forceEnvironment: Darklands_dark
+  spawns:
+  - prefab: RRR_Grig
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - 128
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    maxSpawned: 2
+    spawnInterval: 4
+    maxLevel: 2
+    minLevel: 2
+    minAltitude: 0
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupRadius: 3
+    huntPlayer: true
+- name: bats
+  duration: 120
+  biome:
+  - meadows
+  - swamp
+  - mountain
+  - blackforest
+  - plains
+  - ashlands
+  - deepnorth
+  - ocean
+  - mistlands
+  requiredGlobalKeys:
+  - KilledBat
+  - defeated_bonemass
+  notRequiredGlobalKeys: []
+  startMessage: $event_bats_start
+  endMessage: $event_bats_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Bat
+    biome:
+    - meadows
+    - swamp
+    - mountain
+    - blackforest
+    - plains
+    - ashlands
+    - deepnorth
+    - ocean
+    - mistlands
+    biomeArea:
+    - edge
+    - median
+    maxSpawned: 10
+    spawnInterval: 10
+    maxAltitude: 5000
+    requiredEnvironments: []
+    spawnDistance: 10
+    groupSizeMin: 2
+    groupSizeMax: 4
+    groupRadius: 4
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 0

@@ -1,0 +1,15 @@
+{
+    "name": "RHelmetIronIV",
+    "clone": true,
+    "clonePrefabName": "HelmetIronIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "HelmetIron:1:0:True",
+		"Silver:20:5:True",
+        "WolfPelt:2:0:True",
+		"TrophyHatchling:2:0:True"
+    ]
+}

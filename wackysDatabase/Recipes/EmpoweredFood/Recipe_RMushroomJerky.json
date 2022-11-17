@@ -1,0 +1,15 @@
+{
+    "name": "RMushroomJerky",
+    "clone": true,
+    "clonePrefabName": "MushroomJerky",
+    "craftingStation": "",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "CookedMeat:2:0:True",
+        "CookedDeerMeat:2:0:True",
+	"Honey:10:0:True",
+	"MushroomBlue:10:0:True"
+    ]
+}

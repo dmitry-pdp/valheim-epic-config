@@ -1,0 +1,20 @@
+{
+    "name": "opalchemy",
+    "m_name": "Zoe's Alchemy Table",
+    "m_description": "Alchemy table for Potions",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Wood:20:0:True",
+		"Stone:8:0:True",
+		"RunestoneMagic:1:0:True"
+    ]
+}

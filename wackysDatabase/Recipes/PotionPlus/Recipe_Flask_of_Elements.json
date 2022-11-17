@@ -1,0 +1,14 @@
+{
+    "name": "Flask_of_Elements",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "Potion_Meadbase:1:0:True",
+        "RunestoneRare:1:0:True",
+        "ReagentEpic:3:0:True"
+    ]
+}

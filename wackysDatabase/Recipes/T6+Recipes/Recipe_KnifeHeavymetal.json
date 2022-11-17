@@ -1,0 +1,14 @@
+{
+    "name": "KnifeHeavymetal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "HeavymetalBar:8:4:False",
+        "WorldTreeFragment:12:3:False",
+        "LinenThread:3:2:False"
+    ]
+}

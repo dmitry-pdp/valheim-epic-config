@@ -1,0 +1,13 @@
+{
+    "name": "RShardLegendary",
+    "clone": true,
+    "clonePrefabName": "ShardLegendary",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "WorldTreeSeed:3:0:False",
+		"EssenceMagic:1:0:False"
+    ]
+}

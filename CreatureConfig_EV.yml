@@ -1,0 +1,375 @@
+groups:
+  EliteBosses:
+    - RRRM_EliteBlob
+    - RRRM_EliteBlobI
+    - RRRM_EliteBlobII
+    - RRRM_EliteBoar
+    - RRRM_EliteBoarI
+    - RRRM_EliteBoarII
+    - RRRM_EliteCultist
+    - RRRM_EliteCultistI
+    - RRRM_EliteCultistII
+    - RRRM_EliteDeathsquito
+    - RRRM_EliteDeathsquitoI
+    - RRRM_EliteDeathsquitoII
+    - RRRM_EliteDrake
+    - RRRM_EliteDrakeI
+    - RRRM_EliteDrakeII
+    - RRRM_EliteDraugr
+    - RRRM_EliteDraugrI
+    - RRRM_EliteDraugrII
+    - RRRM_EliteFuling
+    - RRRM_EliteFulingI
+    - RRRM_EliteFulingII
+    - RRRM_EliteGhost
+    - RRRM_EliteGhostI
+    - RRRM_EliteGhostII
+    - RRRM_EliteGreydwarf
+    - RRRM_EliteGreydwarfI
+    - RRRM_EliteGreydwarfII
+    - RRRM_EliteGreyling
+    - RRRM_EliteGreylingI
+    - RRRM_EliteGreylingII
+    - RRRM_EliteNeck
+    - RRRM_EliteNeckI
+    - RRRM_EliteNeckII
+    - RRRM_EliteSkeleton
+    - RRRM_EliteSkeletonI
+    - RRRM_EliteSkeletonII
+    - RRRM_EliteSurtling
+    - RRRM_EliteSurtlingI
+    - RRRM_EliteSurtlingII
+    - RRRM_EliteWolf
+    - RRRM_EliteWolfI
+    - RRRM_EliteWolfII
+    
+  NPC:
+    - RRRN_MeadowsFoe
+    - RRRN_BlackForestFoe
+    - RRRN_SwampFoe
+    - RRRN_MountainsFoe
+    - RRRN_PlainsFoe
+    - RRRN_MeadowsFriend
+    - RRRN_BlackForestFriend
+    - RRRN_SwampFriend
+    - RRRN_MountainsFriend
+    - RRRN_PlainsFriend
+  vanilla:
+    - Boar
+    - Neck
+    - Greyling
+    - Deer
+    - Greydwarf
+    - Greydwarf_Shaman
+    - Greydwarf_Elite
+    - Skeleton
+    - Skeleton_Poison
+    - Troll
+    - Ghost
+    - Leech
+    - Blob
+    - BlobElite
+    - Draugr
+    - Draugr_Elite
+    - Wraith
+    - Abomination
+    - Surtling
+    - Hatchling
+    - Wolf
+    - Fenring
+    - Bat
+    - Fenring_Cultist
+    - StoneGolem
+    - Ulv
+    - Deathsquito
+    - Goblin
+    - GoblinBrute
+    - GoblinShaman
+    - Lox
+    - BlobTar
+    - Serpent
+  Bosses:
+    - Eikthyr
+    - The Elder
+    - Bonemass
+    - Moder
+    - GoblinKing
+Bosses:
+  stars: 2
+  affix:
+    Reflective: 15
+    Shielded: 15
+    Mending: 0
+    Summoner: 15
+    Elementalist: 15
+    Enraged: 15
+    Twin: 15
+vanilla:
+  stars: [15, 5]
+EliteBosses:
+  effect:
+    Aggressive: 25
+    Curious: 25
+    Quick: 25
+    Regenerating: 24
+    Splitting: 0
+    Armored: 1
+  infusion:
+    Fire: 20
+    Frost: 20
+    Poison: 20
+    Lightning: 20
+    Spirit: 1
+    Chaos: 19
+NPC:
+    damage: 1.3
+    damage per star: 0.3
+    health per star: 0.3
+    movement speed: 0.6
+Greyling:
+  Override:
+    damage: 1.3
+    damage per star: 0.5
+    health: 2
+    health per star: 0.5
+Deer:
+  Override:
+    health: 2
+    health per star: 0.5
+Boar:
+  Override:
+    damage: 1.3
+    damage per star: 0.5
+    health: 3
+    health per star: 1
+Neck:
+  Override:
+    damage: 1.3
+    damage per star: 0.5
+    health: 5
+    health per star: 1
+Troll:
+  Override:
+    damage: 1.2
+    damage per star: 0.3
+    health: 2
+    health per star: 1
+# Tier 1 Elite Bosses
+
+#Elite Boar
+RRRM_EliteBoar:
+    damage: 2.5
+    health: 20
+    stars: 0
+RRRM_EliteBoarI:
+    size: 0.5
+    damage: 2.5
+    health: 21
+    stars: [100, 0]
+RRRM_EliteBoarII:
+    size: 0.5
+    damage: 2.5
+    health: 23
+    stars: [0, 100]
+# Elite Neck
+RRRM_EliteNeck:
+    damage: 4.5
+    health: 40
+    stars: 0
+RRRM_EliteNeckI:
+    size: 0.5
+    damage: 4.5
+    health: 41
+    stars: [100, 0]
+RRRM_EliteNeckII:
+    size: 0.5
+    damage: 4.5
+    health: 42
+    stars: [0, 100]
+# Elite Greyling
+RRRM_EliteGreyling:
+    damage: 6.5
+    health: 10
+    stars: 0
+RRRM_EliteGreylingI:
+    size: 0.5
+    damage: 6.5
+    health: 10
+    stars: [100, 0]
+RRRM_EliteGreylingII:
+    size: 0.5
+    damage: 6.5
+    health: 10
+    stars: [0, 100]
+# Tier 2 Elite Bosses
+# Elite Ghost
+RRRM_EliteGhost:
+    damage: 2.2
+    health: 3
+    stars: 0
+RRRM_EliteGhostI:
+    damage: 2.4
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteGhostII:
+    damage: 2.5
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+# Elite Skeleton
+RRRM_EliteSkeleton:
+    damage: 0.7
+    health: 3
+    stars: 0
+RRRM_EliteSkeletonI:
+    damage: 0.6
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteSkeletonII:
+    damage: 0.5
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+#Greydwarf
+RRRM_EliteGreydwarf:
+    damage: 5
+    health: 3
+    stars: 0
+RRRM_EliteGreydwarfI:
+    damage: 5.5
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteGreydwarfII:
+    damage: 6
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+# Tier 3 Elite Bosses
+#Elite Blob
+RRRM_EliteBlob:
+    damage: 1
+    health: 3
+    stars: 0
+RRRM_EliteBlobI:
+    damage: 1
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteBlobII:
+    damage: 1
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+#Elite Draugr
+RRRM_EliteDraugr:
+    damage: 0.8
+    health: 3
+    stars: 0
+RRRM_EliteDraugrI:
+    damage: 0.7
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteDraugrII:
+    damage: 0.6
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+# Elite Surtling
+RRRM_EliteSurtling:
+    damage: 1.5
+    health: 3
+    size: 0.5
+    stars: 0
+RRRM_EliteSurtlingI:
+    damage: 1.5
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteSurtlingII:
+    damage: 1.5
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+# Tier 4 Elite Bosses
+#Wolf
+RRRM_EliteWolf:
+    damage: 1.2
+    health: 3
+    stars: 0
+RRRM_EliteWolfI:
+    damage: 1.2
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteWolfII:
+    damage: 1.2
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+#Drake
+RRRM_EliteDrake:
+    damage: 1.5
+    health: 3
+    stars: 0
+RRRM_EliteDrakeI:
+    damage: 1.5
+    health: 3.5
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteDrakeII:
+    damage: 1.5
+    health: 4
+    size: 0.5
+    stars: [0, 100]
+#Cultist
+RRRM_EliteCultist:
+    damage: 1.3
+    health: 3
+    stars: 0
+RRRM_EliteCultistI:
+    damage: 1.3
+    health: 3
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteCultistII:
+    damage: 1.3
+    health: 3
+    size: 0.5
+    stars: [0, 100]
+# Tier 5 Elite Bosses
+#Fuling
+RRRM_EliteFuling:
+    damage: 0.8
+    health: 3
+    size: 0.5
+    stars: 0
+RRRM_EliteFulingI:
+    damage: 0.7
+    health: 3
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteFulingII:
+    damage: 0.7
+    health: 3
+    size: 0.5
+    stars: [0, 100]
+#Deathsquito
+RRRM_EliteDeathsquito:
+    damage: 1.3
+    health: 3
+    size: 0.5
+    stars: 0
+RRRM_EliteDeathsquitoI:
+    damage: 1.3
+    health: 3
+    size: 0.5
+    stars: [100, 0]
+RRRM_EliteDeathsquitoII:
+    damage: 1.3
+    health: 3
+    size: 0.5
+    stars: [0, 100]

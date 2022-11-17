@@ -1,0 +1,15 @@
+{
+    "name": "SwordFrometal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FrometalBar:10:5:False",
+        "PrimordialIce:5:2:False",
+        "LoxPelt:3:2:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

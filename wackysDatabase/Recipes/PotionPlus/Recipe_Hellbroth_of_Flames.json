@@ -1,0 +1,14 @@
+{
+    "name": "Hellbroth_of_Flames",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"EssenceMagic:1:0:True",
+        "Resin:8:0:True",
+        "Coal:1:0:True"
+    ]
+}

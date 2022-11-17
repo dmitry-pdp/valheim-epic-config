@@ -1,0 +1,5 @@
+AllTeleportable: false
+NoneTeleportable: true
+Items:
+  TinOre: true
+  CopperOre: true

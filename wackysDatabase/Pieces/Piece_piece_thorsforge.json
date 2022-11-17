@@ -1,0 +1,21 @@
+{
+    "name": "piece_thorsforge",
+    "m_name": "Thors Forge",
+    "m_description": "Craft high-tier armor/weapons here.",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Bronze:10:0:True",
+        "Tin:5:0:True",
+        "SurtlingCore:1:0:True",
+		"RunestoneMagic:1:0:True"
+    ]
+}

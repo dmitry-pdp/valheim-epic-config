@@ -1,0 +1,14 @@
+{
+    "name": "REmpoweredGoblinTotem",
+    "clone": true,
+    "clonePrefabName": "EmpoweredGoblinTotem",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 5,
+    "disabled": false,
+    "reqs": [
+        "GoblinTotem:10:0:False",
+        "EssenceMagic:30:0:False",
+		"ShardLegendary:10:0:False"
+    ]
+}

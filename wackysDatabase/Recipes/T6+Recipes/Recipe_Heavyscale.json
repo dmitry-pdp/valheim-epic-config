@@ -1,0 +1,13 @@
+{
+    "name": "Heavyscale",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Iron:1:0:False",
+        "WorldTreeFragment:2:0:False"
+    ]
+}

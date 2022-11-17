@@ -1,0 +1,20 @@
+{
+    "name": "piece_enchanter",
+    "m_name": "$mod_epicloot_assets_enchanter",
+    "m_description": "$mod_epicloot_assets_enchanter_introduce\n",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Wood:10:0:True",
+        "Stone:10:0:True",
+		"RunestoneRare:1:0:True"
+    ]
+}

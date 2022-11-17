@@ -1,0 +1,14 @@
+{
+    "name": "KnifeFrometal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "FrometalBar:8:4:False",
+        "PrimordialIce:2:1:False",
+        "WorldTreeFragment:4:2:False"
+    ]
+}

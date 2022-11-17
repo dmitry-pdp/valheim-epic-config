@@ -1,0 +1,15 @@
+{
+    "name": "rune_chain_lightning",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "DustRare:15:0:False",
+        "RunestoneLegendary:1:0:False",
+		"Flint:10:0:False",
+		"Stone:10:0:False"
+    ]
+}

@@ -1,0 +1,8 @@
+﻿PrintComment: ThisGoesHere Updating & Replacing ***Epic Valheim*** configuration to version 4.0.8
+CopyFolder:
+- From: config/Epic_Valheim/RandyKnapp-EpicLoot/
+  To: plugins/
+DeleteFile:
+- config\wackysDatabase\Items\Item_LesserDragonEgg.json
+- config\wackysDatabase\Items\Item_LesserGoblinTotem.json
+- config\Huntard.CustomizeAltars.json

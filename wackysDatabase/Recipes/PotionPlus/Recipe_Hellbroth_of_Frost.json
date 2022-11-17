@@ -1,0 +1,14 @@
+{
+    "name": "Hellbroth_of_Frost",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"EssenceMagic:3:0:True",
+        "FreezeGland:4:0:True",
+        "Chain:1:0:True"
+    ]
+}

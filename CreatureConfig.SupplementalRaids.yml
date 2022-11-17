@@ -1,0 +1,37 @@
+groups:
+    Mini Bosses:
+      - RRRM_GDVileHand
+      - RRRM_EikthyrLox
+      - RRRM_EikthyrNeckT4
+      - RRRM_GDBurningTorch
+      - RRRM_GDElderBrute
+      - RRRM_SkeletonT3Captain
+      - RRRM_SkeletonT4Captain
+      - RRRM_UndeadHrungnir
+      - RRRN_plainsbandit3
+      - RRRN_mountainbandit3
+      - RRRN_wildbandit3
+      - RRRM_TrollT2Elite
+      - RRRM_TrollT3Elite
+      - RRRM_TrollT4Elite
+      - RRRN_wildbanditgiant
+      - RRRM_WraithT3
+      
+    NoBiggly:
+      - RRRM_EikthyrBoar
+      - RRRM_EikthyrNeckT3M
+      - RRRM_EikthyrNeck
+      - RRRM_EikthyrNeckT3R
+      - RRRM_EikthyrWolf
+      - RRRM_GDTosser
+      - RRRM_WraithT2
+      
+##default groups. This will limit the level for the strong creatures that I assigned to the 'My Plais Group' at the top.
+Mini Bosses:
+    affix:
+        Twin: 0
+        Summoner: 0
+    size: 0
+    
+NoBiggly:
+    size: 0

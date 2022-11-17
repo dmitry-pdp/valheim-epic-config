@@ -1,0 +1,15 @@
+{
+    "name": "RArmorLeatherLegsIV",
+    "clone": true,
+    "clonePrefabName": "ArmorLeatherLegsIV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorLeatherLegsIII:1:0:True",
+		"DeerHide:6:6:True",
+		"WolfHairBundle:20:5:True",
+        "WolfPelt:5:3:True"
+    ]
+}

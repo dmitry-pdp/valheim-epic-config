@@ -1,0 +1,881 @@
+- prefab: StoneCircle
+  biome: Meadows, darkmeadows
+  quantity: 25
+  minAltitude: 1
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 3
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: StartTemple
+  biome: Meadows
+  biomeArea: median
+  quantity: 1
+  maxDistance: 1
+  minAltitude: 3
+  prioritized: true
+  centerFirst: true
+  iconAlways: true
+  maxTerrainDelta: 3
+  inForest: true
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: Eikthyrnir
+  biome: darkmeadows
+  biomeArea: median
+  quantity: 6
+  maxDistance: 0.3
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 1000
+  randomRotation: true
+  maxTerrainDelta: 3
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: GoblinKing
+  biome: darkplains
+  biomeArea: median
+  quantity: 4
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 3000
+  randomRotation: true
+  maxTerrainDelta: 4
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: Greydwarf_camp1
+  biome: BlackForest, darkblackforest
+  biomeArea: median
+  quantity: 300
+  minAltitude: 1
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Greydwarf_camp2
+  enabled: false
+  biome: BlackForest, darkblackforest
+  quantity: 50
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+  inForest: true
+- prefab: Greydwarf_camp3
+  enabled: false
+  biome: BlackForest, darkblackforest
+  quantity: 100
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+  inForest: true
+- prefab: Runestone_Greydwarfs
+  biome: BlackForest, darkblackforest
+  quantity: 25
+  maxDistance: 0.2
+  minAltitude: 1
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+  forestTresholdMin: 1
+  forestTresholdMax: 99
+- prefab: Grave1
+  biome: Swamp
+  biomeArea: median
+  quantity: 200
+  minAltitude: 0.5
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampRuin1
+  biome: Swamp, darkswamp
+  biomeArea: median
+  quantity: 50
+  minDistanceFromSimilar: 512
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampRuin2
+  biome: Swamp, darkswamp
+  biomeArea: median
+  quantity: 50
+  minDistanceFromSimilar: 512
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: FireHole
+  biome: Swamp, darkswamp
+  biomeArea: median
+  quantity: 200
+  minAltitude: 0.5
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_Draugr
+  biome: Swamp, darkswamp
+  quantity: 50
+  minAltitude: 0.5
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: GDKing
+  biome: darkblackforest
+  biomeArea: median
+  quantity: 4
+  minDistance: 0.1
+  maxDistance: 0.7
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 3000
+  randomRotation: true
+  maxTerrainDelta: 5
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: Bonemass
+  biome: darkswamp
+  biomeArea: median
+  quantity: 5
+  minDistance: 0.2
+  maxDistance: 1
+  maxAltitude: 2
+  prioritized: true
+  minDistanceFromSimilar: 3000
+  randomRotation: true
+  maxTerrainDelta: 4
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: Meteorite
+  biome: AshLands
+  quantity: 500
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+  forestTresholdMin: 1
+  forestTresholdMax: 5
+- prefab: Crypt2
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Ruin1
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Ruin2
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Pillar1
+  enabled: false
+  biome: BlackForest, darkblackforest
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Pillar2
+  enabled: false
+  biome: BlackForest, darkblackforest
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHouse1_heath
+  biome: Plains, darkplains
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHouse2_heath
+  biome: Plains, darkplains
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHouse5_heath
+  biome: Plains, darkplains
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHouse3
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHouse4
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Ruin3
+  biome: Plains, darkplains
+  quantity: 50
+  minAltitude: 1
+  group: Goblintower
+  minDistanceFromSimilar: 512
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: GoblinCamp1
+  enabled: false
+  biome: Plains, darkplains
+  quantity: 200
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: GoblinCamp2
+  biome: Plains, darkplains
+  quantity: 200
+  minAltitude: 2
+  minDistanceFromSimilar: 250
+  maxTerrainDelta: 3
+- prefab: StoneTower1
+  biome: Plains, darkplains
+  quantity: 50
+  minAltitude: 1
+  group: Goblintower
+  minDistanceFromSimilar: 512
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneTower2
+  enabled: false
+  biome: Plains, darkplains
+  quantity: 100
+  minAltitude: 1
+  minDistanceFromSimilar: 500
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneTower3
+  biome: Plains, darkplains
+  quantity: 50
+  minAltitude: 1
+  group: Goblintower
+  minDistanceFromSimilar: 512
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneTower4
+  enabled: false
+  biome: Plains, darkplains
+  quantity: 100
+  minAltitude: 1
+  minDistanceFromSimilar: 500
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge1
+  biome: Plains, darkplains
+  quantity: 5
+  minAltitude: 5
+  group: Stonehenge
+  minDistanceFromSimilar: 1000
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge2
+  biome: Plains, darkplains
+  quantity: 5
+  minAltitude: 5
+  group: Stonehenge
+  minDistanceFromSimilar: 1000
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge3
+  biome: Plains, darkplains
+  quantity: 5
+  minAltitude: 5
+  group: Stonehenge
+  minDistanceFromSimilar: 1000
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge4
+  biome: Plains, darkplains
+  quantity: 5
+  minAltitude: 5
+  group: Stonehenge
+  minDistanceFromSimilar: 1000
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge5
+  biome: Plains, darkplains
+  quantity: 20
+  minAltitude: 2
+  group: Stonehenge
+  minDistanceFromSimilar: 500
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneHenge6
+  biome: Plains, darkplains
+  quantity: 20
+  minAltitude: 2
+  group: Stonehenge
+  minDistanceFromSimilar: 500
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: WoodHouse1
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse2
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse3
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse4
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse5
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse6
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse7
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse8
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse9
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse10
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse11
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse12
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodHouse13
+  biome: Meadows, darkmeadows
+  quantity: 20
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodFarm1
+  biome: Meadows, darkmeadows
+  quantity: 10
+  minDistance: 0.05
+  maxDistance: 0.2
+  minAltitude: 1
+  group: woodvillage
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: WoodVillage1
+  biome: Meadows, darkmeadows
+  quantity: 15
+  minDistance: 0.2
+  maxDistance: 1
+  minAltitude: 1
+  group: woodvillage
+  minDistanceFromSimilar: 256
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: TrollCave
+  enabled: false
+  biome: BlackForest, darkblackforest
+  biomeArea: median
+  quantity: 100
+  minAltitude: 1
+  slopeRotation: true
+  minTerrainDelta: 5
+- prefab: TrollCave02
+  biome: BlackForest, darkblackforest
+  biomeArea: median
+  quantity: 250
+  minAltitude: 3
+  minDistanceFromSimilar: 256
+  slopeRotation: true
+  minTerrainDelta: 5
+- prefab: SunkenCrypt1
+  enabled: false
+  biome: Swamp, darkswamp
+  minAltitude: -1
+  maxAltitude: 2
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: SunkenCrypt2
+  enabled: false
+  biome: Swamp, darkswamp
+  minAltitude: -1
+  maxAltitude: 2
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: SunkenCrypt3
+  enabled: false
+  biome: Swamp, darkswamp
+  minAltitude: -1
+  maxAltitude: 2
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: SunkenCrypt4
+  biome: Swamp, darkswamp
+  biomeArea: median
+  quantity: 400
+  maxAltitude: 2
+  prioritized: true
+  minDistanceFromSimilar: 64
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: Dolmen01
+  biome: Meadows, BlackForest, darkmeadows, darkblackforest
+  quantity: 100
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Dolmen02
+  biome: Meadows, BlackForest, darkmeadows, darkblackforest
+  quantity: 100
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Dolmen03
+  biome: Meadows, BlackForest, darkmeadows, darkblackforest
+  quantity: 50
+  minAltitude: 1
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Crypt3
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 3
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Crypt4
+  biome: BlackForest, darkblackforest
+  quantity: 200
+  minAltitude: 1
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: InfestedTree01
+  biome: Swamp, darkswamp
+  quantity: 700
+  minAltitude: -1
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampHut1
+  biome: Swamp, darkswamp
+  quantity: 50
+  minAltitude: -2
+  group: Swamphut
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampHut2
+  biome: Swamp, darkswamp
+  quantity: 50
+  minAltitude: 2
+  group: Swamphut
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampHut3
+  biome: Swamp, darkswamp
+  quantity: 50
+  minAltitude: 2
+  group: Swamphut
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampHut4
+  biome: Swamp, darkswamp
+  quantity: 50
+  minAltitude: -1
+  group: Swamphut
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampHut5
+  biome: Swamp, darkswamp
+  quantity: 25
+  minAltitude: -1
+  group: Swamphut
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: SwampWell1
+  biome: Swamp, darkswamp
+  quantity: 25
+  minAltitude: -1
+  minDistanceFromSimilar: 1024
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: StoneTowerRuins04
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 150
+  group: Mountainruin
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  slopeRotation: true
+  minTerrainDelta: 6
+  maxTerrainDelta: 40
+- prefab: StoneTowerRuins05
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 150
+  group: Mountainruin
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  slopeRotation: true
+  minTerrainDelta: 6
+  maxTerrainDelta: 40
+- prefab: StoneTowerRuins03
+  biome: BlackForest, darkblackforest
+  quantity: 80
+  minAltitude: 2
+  group: Stonetowerruins
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: StoneTowerRuins07
+  biome: BlackForest, darkblackforest
+  quantity: 80
+  minAltitude: 2
+  group: Stonetowerruins
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: StoneTowerRuins08
+  biome: BlackForest, darkblackforest
+  quantity: 80
+  minAltitude: 2
+  group: Stonetowerruins
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: StoneTowerRuins09
+  biome: BlackForest, darkblackforest
+  quantity: 80
+  minAltitude: 2
+  group: Stonetowerruins
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: StoneTowerRuins10
+  biome: BlackForest, darkblackforest
+  quantity: 80
+  minAltitude: 2
+  group: Stonetowerruins
+  minDistanceFromSimilar: 200
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Vendor_BlackForest
+  biome: Meadows, BlackForest, darkmeadows, darkblackforest
+  biomeArea: median
+  quantity: 1
+  minDistance: 0.05
+  maxDistance: 0.075
+  minAltitude: 1
+  prioritized: true
+  unique: true
+  iconPlaced: true
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: ShipSetting01
+  biome: Meadows, darkmeadows
+  quantity: 100
+  minAltitude: 1
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Dragonqueen
+  biome: darkmountain
+  biomeArea: median
+  quantity: 3
+  minAltitude: 150
+  maxAltitude: 500
+  prioritized: true
+  minDistanceFromSimilar: 0
+  randomRotation: true
+  maxTerrainDelta: 4
+- prefab: DrakeNest01
+  biome: Mountain, darkmountain
+  quantity: 200
+  maxDistance: 1
+  minAltitude: 100
+  maxAltitude: 2000
+  minDistanceFromSimilar: 100
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Waymarker01
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 100
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Waymarker02
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 100
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: AbandonedLogCabin02
+  biome: Mountain, darkmountain
+  quantity: 33
+  minAltitude: 100
+  group: Abandonedcabin
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: AbandonedLogCabin03
+  biome: Mountain, darkmountain
+  quantity: 33
+  minAltitude: 100
+  group: Abandonedcabin
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: AbandonedLogCabin04
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 100
+  group: Abandonedcabin
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: MountainGrave01
+  biome: Mountain, darkmountain
+  quantity: 100
+  minAltitude: 100
+  minDistanceFromSimilar: 50
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: DrakeLorestone
+  biome: Mountain, darkmountain
+  quantity: 50
+  minAltitude: 100
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: MountainWell1
+  biome: Mountain, darkmountain
+  quantity: 25
+  minAltitude: 100
+  minDistanceFromSimilar: 256
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: MountainCave01
+  enabled: false
+  biome: Mountain, darkmountain
+  quantity: 500
+  minAltitude: 100
+  randomRotation: true
+  maxTerrainDelta: 20
+- prefab: ShipWreck01
+  biome: Swamp, BlackForest, Plains, Ocean, darkblackforest, darkswamp, darkplains
+  quantity: 25
+  minAltitude: -1
+  maxAltitude: 1
+  group: Shipwreck
+  minDistanceFromSimilar: 1024
+  randomRotation: true
+- prefab: ShipWreck02
+  biome: Swamp, BlackForest, Plains, Ocean, darkblackforest, darkswamp, darkplains
+  quantity: 25
+  minAltitude: -1
+  maxAltitude: 1
+  group: Shipwreck
+  minDistanceFromSimilar: 1024
+  randomRotation: true
+- prefab: ShipWreck03
+  biome: Swamp, BlackForest, Plains, Ocean, darkblackforest, darkswamp, darkplains
+  quantity: 25
+  minAltitude: -1
+  maxAltitude: 1
+  group: Shipwreck
+  minDistanceFromSimilar: 1024
+  randomRotation: true
+- prefab: ShipWreck04
+  biome: Swamp, BlackForest, Plains, Ocean, darkblackforest, darkswamp, darkplains
+  quantity: 25
+  minAltitude: -1
+  maxAltitude: 1
+  group: Shipwreck
+  minDistanceFromSimilar: 1024
+  randomRotation: true
+- prefab: Hugintest
+  enabled: false
+  biome: Meadows, darkmeadows
+  minAltitude: -1000
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: Runestone_Meadows
+  biome: Meadows, darkmeadows
+  quantity: 100
+  minAltitude: 1
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_Boars
+  biome: Meadows, darkmeadows
+  quantity: 50
+  minAltitude: 1
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_Swamps
+  biome: Swamp, darkswamp
+  quantity: 100
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_Mountains
+  biome: Mountain, darkmountain
+  quantity: 100
+  minAltitude: 100
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_BlackForest
+  biome: BlackForest, darkblackforest
+  quantity: 50
+  minAltitude: 1
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: Runestone_Plains
+  biome: Plains, darkplains
+  quantity: 100
+  minAltitude: 1
+  group: Runestones
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 3
+- prefab: DevHouse1
+  enabled: false
+  minAltitude: -1000
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: DevSoundTest
+  enabled: false
+  minAltitude: -1000
+  randomRotation: true
+  maxTerrainDelta: 2
+- prefab: TarPit1
+  biome: Plains, darkplains
+  biomeArea: median
+  quantity: 100
+  minAltitude: 5
+  maxAltitude: 60
+  group: tarpit
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 1.5
+  forestTresholdMax: 0
+- prefab: TarPit2
+  biome: Plains, darkplains
+  biomeArea: median
+  quantity: 100
+  minAltitude: 5
+  maxAltitude: 60
+  group: tarpit
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 1.5
+  forestTresholdMax: 0
+- prefab: TarPit3
+  biome: Plains, darkplains
+  biomeArea: median
+  quantity: 100
+  minAltitude: 5
+  maxAltitude: 60
+  group: tarpit
+  minDistanceFromSimilar: 128
+  randomRotation: true
+  maxTerrainDelta: 1.5
+  forestTresholdMax: 0
+- prefab: MountainCave02
+  biome: Mountain, darkmountain
+  quantity: 160
+  minAltitude: 100
+  maxAltitude: 5000
+  group: mountaincaves
+  minDistanceFromSimilar: 200
+  slopeRotation: true
+  maxTerrainDelta: 40
+  forestTresholdMax: 0
+- prefab: SvartalfrQueenAltar_New
+  biome: Mistlands
+  quantity: 3
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 4000
+  maxTerrainDelta: 2
+- prefab: JotunnAltar
+  biome: DeepNorth
+  quantity: 3
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 4000
+  maxTerrainDelta: 2
+- prefab: BlazingDamnedOneAltar
+  biome: AshLands
+  quantity: 3
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 4000
+  maxTerrainDelta: 2
+- prefab: Vegvisir_SvartalfrQueen
+  biome: Mistlands
+  quantity: 35
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 1000
+  maxTerrainDelta: 2
+- prefab: Vegvisir_Jotunn
+  biome: DeepNorth
+  quantity: 15
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 1000
+  maxTerrainDelta: 2
+- prefab: Vegvisir_BlazingDamnedOne
+  biome: AshLands
+  quantity: 15
+  minAltitude: 1
+  prioritized: true
+  minDistanceFromSimilar: 1000
+  maxTerrainDelta: 2

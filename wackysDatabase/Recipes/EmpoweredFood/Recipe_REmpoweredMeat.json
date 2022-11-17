@@ -1,0 +1,14 @@
+{
+    "name": "REmpoweredMeat",
+    "clone": true,
+    "clonePrefabName": "EmpoweredMeat",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneMagic:1:0:True",
+	"ReagentEpic:3:0:True",
+        "CookedDeerMeat:1:0:True"
+    ]
+}

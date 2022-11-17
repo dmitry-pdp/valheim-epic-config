@@ -1,0 +1,14 @@
+{
+    "name": "Lesser_Spiritual_Healing_Vial",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneMagic:1:0:True",
+        "ReagentEpic:3:0:True",
+		"Honey:5:0:True"
+    ]
+}

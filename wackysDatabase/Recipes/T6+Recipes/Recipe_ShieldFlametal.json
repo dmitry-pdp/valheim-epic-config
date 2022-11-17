@@ -1,0 +1,13 @@
+{
+    "name": "ShieldFlametal",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": true,
+    "reqs": [
+        "Flametal:8:4:False",
+        "BurningWorldTreeFragment:8:4:False"
+    ]
+}

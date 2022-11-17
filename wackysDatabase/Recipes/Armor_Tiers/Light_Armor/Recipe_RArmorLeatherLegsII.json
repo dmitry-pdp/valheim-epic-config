@@ -1,0 +1,14 @@
+{
+    "name": "RArmorLeatherLegsII",
+    "clone": true,
+    "clonePrefabName": "ArmorLeatherLegsII",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "ArmorLeatherLegs:1:0:True",
+		"DeerHide:2:2:True",
+		"TrollHide:5:2:True"
+    ]
+}

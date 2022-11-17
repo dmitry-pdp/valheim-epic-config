@@ -1,0 +1,15 @@
+{
+    "name": "Rrune_forceV",
+    "clone": true,
+    "clonePrefabName": "rune_forceV",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 5,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"rune_forceIV:1:0:False",
+        "DustRare:10:0:False",
+        "RunestoneLegendary:1:0:False",
+		"BlackMetal:5:0:False"
+    ]
+}

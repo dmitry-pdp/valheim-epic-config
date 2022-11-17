@@ -1,0 +1,15 @@
+{
+    "name": "RCapeTrollHideV",
+    "clone": true,
+    "clonePrefabName": "CapeTrollHideV",
+    "craftingStation": "Thors Forge",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "CapeTrollHideIV:1:0:True",
+		"TrollHide:2:0:True",
+        "LoxPelt:6:2:True",
+		"Silver:2:0:True"
+    ]
+}

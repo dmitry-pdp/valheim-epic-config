@@ -1,0 +1,15 @@
+{
+    "name": "Rrune_fireboltII",
+    "clone": true,
+    "clonePrefabName": "rune_fireboltII",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 2,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+		"rune_firebolt:1:0:False",
+        "DustRare:10:0:False",
+        "RunestoneLegendary:1:0:False",
+		"Bronze:5:0:False"
+    ]
+}

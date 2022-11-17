@@ -1,0 +1,13 @@
+{
+    "name": "Odins_Wizard_Hat",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$piece_workbench",
+    "minStationLevel": 5,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "LinenThread:20:10:True",
+        "SurtlingCore:5:2:True"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Lesser_Healing_Tide_Vial",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "$pp_alchemy_table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "RunestoneMagic:1:0:True",
+        "ReagentEpic:3:0:True",
+		"Mushroom:5:0:True"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "opcauldron",
+    "m_name": "Alchemy Cauldron",
+    "m_description": "A Special Cauldron for crafting Potion Base",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Iron:10:0:True",
+		"DustRare:20:0:True",
+		"RunestoneRare:1:0:True"
+    ]
+}

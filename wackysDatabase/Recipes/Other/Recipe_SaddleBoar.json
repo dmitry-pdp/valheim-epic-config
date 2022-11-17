@@ -1,0 +1,14 @@
+{
+    "name": "SaddleBoar",
+    "clone": false,
+    "clonePrefabName": "",
+    "craftingStation": "Inscription Table",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "reqs": [
+        "LeatherScraps:40:0:False",
+		"RunestoneRare:1:0:False",
+		"ReagentEpic:50:0:False"
+    ]
+}
