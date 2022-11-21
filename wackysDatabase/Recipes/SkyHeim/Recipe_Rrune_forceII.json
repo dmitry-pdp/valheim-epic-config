@@ -9,7 +9,7 @@
     "reqs": [
 		"rune_force:1:0:False",
         "DustRare:10:0:False",
-        "RunestoneLegendary:1:0:False",
+        "RunestoneEpic:1:0:False",
 		"Bronze:5:0:False"
     ]
 }
